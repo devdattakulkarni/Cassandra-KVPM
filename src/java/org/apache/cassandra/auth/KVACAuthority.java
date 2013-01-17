@@ -44,7 +44,7 @@ public class KVACAuthority implements IAuthority {
         AuthenticatedUser user, List<Object> resourceList,
         CassandraServer server) {
         
-        //logger.info("Evaluating authorization decision inside KVACAuthority");
+        //logger.error("Evaluating authorization decision inside KVACAuthority");
 
         long threadId = Thread.currentThread().getId();
         // System.out.println("Thread ID:" + threadId);

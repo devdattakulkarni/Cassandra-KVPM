@@ -1,4 +1,4 @@
-// $ANTLR 3.2 Sep 23, 2009 12:02:23 /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g 2012-07-23 11:05:51
+// $ANTLR 3.2 Sep 23, 2009 12:02:23 /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g 2013-01-17 05:32:46
 
     package org.apache.cassandra.cql;
     import org.apache.cassandra.thrift.InvalidRequestException;
@@ -159,15 +159,15 @@ public class CqlLexer extends Lexer {
         super(input,state);
 
     }
-    public String getGrammarFileName() { return "/Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g"; }
+    public String getGrammarFileName() { return "/home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g"; }
 
     // $ANTLR start "T__80"
     public final void mT__80() throws RecognitionException {
         try {
             int _type = T__80;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:47:7: ( '(' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:47:9: '('
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:47:7: ( '(' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:47:9: '('
             {
             match('('); 
 
@@ -186,8 +186,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__81;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:48:7: ( ')' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:48:9: ')'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:48:7: ( ')' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:48:9: ')'
             {
             match(')'); 
 
@@ -206,8 +206,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__82;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:49:7: ( ',' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:49:9: ','
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:49:7: ( ',' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:49:9: ','
             {
             match(','); 
 
@@ -226,8 +226,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__83;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:50:7: ( '\\*' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:50:9: '\\*'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:50:7: ( '\\*' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:50:9: '\\*'
             {
             match('*'); 
 
@@ -246,8 +246,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__84;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:51:7: ( ';' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:51:9: ';'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:51:7: ( ';' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:51:9: ';'
             {
             match(';'); 
 
@@ -266,8 +266,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__85;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:52:7: ( '=' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:52:9: '='
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:52:7: ( '=' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:52:9: '='
             {
             match('='); 
 
@@ -286,8 +286,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__86;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:53:7: ( 'bytea' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:53:9: 'bytea'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:53:7: ( 'bytea' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:53:9: 'bytea'
             {
             match("bytea"); 
 
@@ -307,8 +307,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__87;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:54:7: ( 'ascii' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:54:9: 'ascii'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:54:7: ( 'ascii' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:54:9: 'ascii'
             {
             match("ascii"); 
 
@@ -328,8 +328,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__88;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:55:7: ( 'text' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:55:9: 'text'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:55:7: ( 'text' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:55:9: 'text'
             {
             match("text"); 
 
@@ -349,8 +349,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__89;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:56:7: ( 'varchar' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:56:9: 'varchar'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:56:7: ( 'varchar' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:56:9: 'varchar'
             {
             match("varchar"); 
 
@@ -370,8 +370,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__90;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:57:7: ( 'int' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:57:9: 'int'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:57:7: ( 'int' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:57:9: 'int'
             {
             match("int"); 
 
@@ -391,8 +391,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__91;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:58:7: ( 'varint' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:58:9: 'varint'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:58:7: ( 'varint' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:58:9: 'varint'
             {
             match("varint"); 
 
@@ -412,8 +412,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__92;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:59:7: ( 'bigint' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:59:9: 'bigint'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:59:7: ( 'bigint' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:59:9: 'bigint'
             {
             match("bigint"); 
 
@@ -433,8 +433,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__93;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:60:7: ( 'uuid' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:60:9: 'uuid'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:60:7: ( 'uuid' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:60:9: 'uuid'
             {
             match("uuid"); 
 
@@ -454,8 +454,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__94;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:61:7: ( 'counter' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:61:9: 'counter'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:61:7: ( 'counter' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:61:9: 'counter'
             {
             match("counter"); 
 
@@ -475,8 +475,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__95;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:62:7: ( 'boolean' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:62:9: 'boolean'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:62:7: ( 'boolean' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:62:9: 'boolean'
             {
             match("boolean"); 
 
@@ -496,8 +496,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__96;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:63:7: ( 'date' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:63:9: 'date'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:63:7: ( 'date' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:63:9: 'date'
             {
             match("date"); 
 
@@ -517,8 +517,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__97;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:64:7: ( 'float' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:64:9: 'float'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:64:7: ( 'float' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:64:9: 'float'
             {
             match("float"); 
 
@@ -538,8 +538,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__98;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:65:7: ( 'double' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:65:9: 'double'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:65:7: ( 'double' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:65:9: 'double'
             {
             match("double"); 
 
@@ -559,8 +559,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__99;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:66:7: ( '+' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:66:9: '+'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:66:7: ( '+' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:66:9: '+'
             {
             match('+'); 
 
@@ -579,8 +579,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__100;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:67:8: ( '-' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:67:10: '-'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:67:8: ( '-' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:67:10: '-'
             {
             match('-'); 
 
@@ -599,8 +599,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__101;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:68:8: ( '<' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:68:10: '<'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:68:8: ( '<' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:68:10: '<'
             {
             match('<'); 
 
@@ -619,8 +619,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__102;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:69:8: ( '<=' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:69:10: '<='
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:69:8: ( '<=' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:69:10: '<='
             {
             match("<="); 
 
@@ -640,8 +640,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__103;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:70:8: ( '>=' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:70:10: '>='
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:70:8: ( '>=' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:70:10: '>='
             {
             match(">="); 
 
@@ -661,8 +661,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = T__104;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:71:8: ( '>' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:71:10: '>'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:71:8: ( '>' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:71:10: '>'
             {
             match('>'); 
 
@@ -681,8 +681,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_SELECT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:479:9: ( S E L E C T )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:479:16: S E L E C T
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:479:9: ( S E L E C T )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:479:16: S E L E C T
             {
             mS(); 
             mE(); 
@@ -706,8 +706,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_FROM;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:480:7: ( F R O M )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:480:16: F R O M
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:480:7: ( F R O M )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:480:16: F R O M
             {
             mF(); 
             mR(); 
@@ -729,8 +729,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_WHERE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:481:8: ( W H E R E )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:481:16: W H E R E
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:481:8: ( W H E R E )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:481:16: W H E R E
             {
             mW(); 
             mH(); 
@@ -753,8 +753,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_AND;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:482:6: ( A N D )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:482:16: A N D
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:482:6: ( A N D )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:482:16: A N D
             {
             mA(); 
             mN(); 
@@ -775,8 +775,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_KEY;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:483:6: ( K E Y )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:483:16: K E Y
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:483:6: ( K E Y )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:483:16: K E Y
             {
             mK(); 
             mE(); 
@@ -797,8 +797,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_INSERT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:484:9: ( I N S E R T )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:484:16: I N S E R T
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:484:9: ( I N S E R T )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:484:16: I N S E R T
             {
             mI(); 
             mN(); 
@@ -822,8 +822,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_UPDATE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:485:9: ( U P D A T E )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:485:16: U P D A T E
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:485:9: ( U P D A T E )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:485:16: U P D A T E
             {
             mU(); 
             mP(); 
@@ -847,8 +847,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_WITH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:486:7: ( W I T H )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:486:16: W I T H
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:486:7: ( W I T H )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:486:16: W I T H
             {
             mW(); 
             mI(); 
@@ -870,8 +870,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_LIMIT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:487:8: ( L I M I T )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:487:16: L I M I T
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:487:8: ( L I M I T )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:487:16: L I M I T
             {
             mL(); 
             mI(); 
@@ -894,8 +894,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_USING;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:488:8: ( U S I N G )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:488:16: U S I N G
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:488:8: ( U S I N G )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:488:16: U S I N G
             {
             mU(); 
             mS(); 
@@ -918,8 +918,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_CONSISTENCY;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:489:14: ( C O N S I S T E N C Y )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:489:16: C O N S I S T E N C Y
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:489:14: ( C O N S I S T E N C Y )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:489:16: C O N S I S T E N C Y
             {
             mC(); 
             mO(); 
@@ -948,10 +948,10 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_LEVEL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:490:8: ( ( O N E | Q U O R U M | A L L | A N Y | L O C A L '_' Q U O R U M | E A C H '_' Q U O R U M ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:490:16: ( O N E | Q U O R U M | A L L | A N Y | L O C A L '_' Q U O R U M | E A C H '_' Q U O R U M )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:490:8: ( ( O N E | Q U O R U M | A L L | A N Y | L O C A L '_' Q U O R U M | E A C H '_' Q U O R U M ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:490:16: ( O N E | Q U O R U M | A L L | A N Y | L O C A L '_' Q U O R U M | E A C H '_' Q U O R U M )
             {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:490:16: ( O N E | Q U O R U M | A L L | A N Y | L O C A L '_' Q U O R U M | E A C H '_' Q U O R U M )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:490:16: ( O N E | Q U O R U M | A L L | A N Y | L O C A L '_' Q U O R U M | E A C H '_' Q U O R U M )
             int alt1=6;
             switch ( input.LA(1) ) {
             case 'O':
@@ -1006,7 +1006,7 @@ public class CqlLexer extends Lexer {
 
             switch (alt1) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:490:18: O N E
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:490:18: O N E
                     {
                     mO(); 
                     mN(); 
@@ -1015,7 +1015,7 @@ public class CqlLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:491:18: Q U O R U M
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:491:18: Q U O R U M
                     {
                     mQ(); 
                     mU(); 
@@ -1027,7 +1027,7 @@ public class CqlLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:492:18: A L L
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:492:18: A L L
                     {
                     mA(); 
                     mL(); 
@@ -1036,7 +1036,7 @@ public class CqlLexer extends Lexer {
                     }
                     break;
                 case 4 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:493:18: A N Y
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:493:18: A N Y
                     {
                     mA(); 
                     mN(); 
@@ -1045,7 +1045,7 @@ public class CqlLexer extends Lexer {
                     }
                     break;
                 case 5 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:494:18: L O C A L '_' Q U O R U M
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:494:18: L O C A L '_' Q U O R U M
                     {
                     mL(); 
                     mO(); 
@@ -1063,7 +1063,7 @@ public class CqlLexer extends Lexer {
                     }
                     break;
                 case 6 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:495:18: E A C H '_' Q U O R U M
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:495:18: E A C H '_' Q U O R U M
                     {
                     mE(); 
                     mA(); 
@@ -1098,8 +1098,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_USE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:498:6: ( U S E )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:498:16: U S E
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:498:6: ( U S E )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:498:16: U S E
             {
             mU(); 
             mS(); 
@@ -1120,8 +1120,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_FIRST;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:499:8: ( F I R S T )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:499:16: F I R S T
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:499:8: ( F I R S T )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:499:16: F I R S T
             {
             mF(); 
             mI(); 
@@ -1144,8 +1144,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_REVERSED;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:500:11: ( R E V E R S E D )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:500:16: R E V E R S E D
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:500:11: ( R E V E R S E D )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:500:16: R E V E R S E D
             {
             mR(); 
             mE(); 
@@ -1171,8 +1171,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_COUNT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:501:8: ( C O U N T )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:501:16: C O U N T
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:501:8: ( C O U N T )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:501:16: C O U N T
             {
             mC(); 
             mO(); 
@@ -1195,8 +1195,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_SET;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:502:6: ( S E T )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:502:16: S E T
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:502:6: ( S E T )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:502:16: S E T
             {
             mS(); 
             mE(); 
@@ -1217,8 +1217,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_BEGIN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:503:8: ( B E G I N )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:503:16: B E G I N
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:503:8: ( B E G I N )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:503:16: B E G I N
             {
             mB(); 
             mE(); 
@@ -1241,8 +1241,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_APPLY;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:504:8: ( A P P L Y )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:504:16: A P P L Y
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:504:8: ( A P P L Y )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:504:16: A P P L Y
             {
             mA(); 
             mP(); 
@@ -1265,8 +1265,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_BATCH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:505:8: ( B A T C H )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:505:16: B A T C H
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:505:8: ( B A T C H )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:505:16: B A T C H
             {
             mB(); 
             mA(); 
@@ -1289,8 +1289,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_TRUNCATE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:506:11: ( T R U N C A T E )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:506:16: T R U N C A T E
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:506:11: ( T R U N C A T E )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:506:16: T R U N C A T E
             {
             mT(); 
             mR(); 
@@ -1316,8 +1316,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_DELETE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:507:9: ( D E L E T E )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:507:16: D E L E T E
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:507:9: ( D E L E T E )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:507:16: D E L E T E
             {
             mD(); 
             mE(); 
@@ -1341,8 +1341,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_IN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:508:5: ( I N )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:508:16: I N
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:508:5: ( I N )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:508:16: I N
             {
             mI(); 
             mN(); 
@@ -1362,8 +1362,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_CREATE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:509:9: ( C R E A T E )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:509:16: C R E A T E
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:509:9: ( C R E A T E )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:509:16: C R E A T E
             {
             mC(); 
             mR(); 
@@ -1387,10 +1387,10 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_KEYSPACE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:510:11: ( ( K E Y S P A C E | S C H E M A ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:510:16: ( K E Y S P A C E | S C H E M A )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:510:11: ( ( K E Y S P A C E | S C H E M A ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:510:16: ( K E Y S P A C E | S C H E M A )
             {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:510:16: ( K E Y S P A C E | S C H E M A )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:510:16: ( K E Y S P A C E | S C H E M A )
             int alt2=2;
             int LA2_0 = input.LA(1);
 
@@ -1408,7 +1408,7 @@ public class CqlLexer extends Lexer {
             }
             switch (alt2) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:510:18: K E Y S P A C E
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:510:18: K E Y S P A C E
                     {
                     mK(); 
                     mE(); 
@@ -1422,7 +1422,7 @@ public class CqlLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:511:20: S C H E M A
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:511:20: S C H E M A
                     {
                     mS(); 
                     mC(); 
@@ -1452,10 +1452,10 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_COLUMNFAMILY;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:512:15: ( ( C O L U M N F A M I L Y | T A B L E ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:512:16: ( C O L U M N F A M I L Y | T A B L E )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:512:15: ( ( C O L U M N F A M I L Y | T A B L E ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:512:16: ( C O L U M N F A M I L Y | T A B L E )
             {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:512:16: ( C O L U M N F A M I L Y | T A B L E )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:512:16: ( C O L U M N F A M I L Y | T A B L E )
             int alt3=2;
             int LA3_0 = input.LA(1);
 
@@ -1473,7 +1473,7 @@ public class CqlLexer extends Lexer {
             }
             switch (alt3) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:512:18: C O L U M N F A M I L Y
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:512:18: C O L U M N F A M I L Y
                     {
                     mC(); 
                     mO(); 
@@ -1491,7 +1491,7 @@ public class CqlLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:513:20: T A B L E
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:513:20: T A B L E
                     {
                     mT(); 
                     mA(); 
@@ -1520,8 +1520,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_INDEX;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:514:8: ( I N D E X )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:514:16: I N D E X
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:514:8: ( I N D E X )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:514:16: I N D E X
             {
             mI(); 
             mN(); 
@@ -1544,8 +1544,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_ON;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:515:5: ( O N )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:515:16: O N
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:515:5: ( O N )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:515:16: O N
             {
             mO(); 
             mN(); 
@@ -1565,8 +1565,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_DROP;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:516:7: ( D R O P )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:516:16: D R O P
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:516:7: ( D R O P )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:516:16: D R O P
             {
             mD(); 
             mR(); 
@@ -1588,8 +1588,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_PRIMARY;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:517:10: ( P R I M A R Y )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:517:16: P R I M A R Y
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:517:10: ( P R I M A R Y )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:517:16: P R I M A R Y
             {
             mP(); 
             mR(); 
@@ -1614,8 +1614,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_INTO;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:518:7: ( I N T O )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:518:16: I N T O
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:518:7: ( I N T O )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:518:16: I N T O
             {
             mI(); 
             mN(); 
@@ -1637,8 +1637,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_VALUES;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:519:9: ( V A L U E S )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:519:16: V A L U E S
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:519:9: ( V A L U E S )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:519:16: V A L U E S
             {
             mV(); 
             mA(); 
@@ -1662,8 +1662,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_TIMESTAMP;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:520:12: ( T I M E S T A M P )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:520:16: T I M E S T A M P
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:520:12: ( T I M E S T A M P )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:520:16: T I M E S T A M P
             {
             mT(); 
             mI(); 
@@ -1690,8 +1690,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_TTL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:521:6: ( T T L )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:521:16: T T L
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:521:6: ( T T L )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:521:16: T T L
             {
             mT(); 
             mT(); 
@@ -1712,8 +1712,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_ALTER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:522:8: ( A L T E R )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:522:16: A L T E R
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:522:8: ( A L T E R )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:522:16: A L T E R
             {
             mA(); 
             mL(); 
@@ -1736,8 +1736,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_ADD;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:523:6: ( A D D )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:523:16: A D D
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:523:6: ( A D D )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:523:16: A D D
             {
             mA(); 
             mD(); 
@@ -1758,8 +1758,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = K_TYPE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:524:7: ( T Y P E )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:524:16: T Y P E
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:524:7: ( T Y P E )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:524:16: T Y P E
             {
             mT(); 
             mY(); 
@@ -1779,8 +1779,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "A"
     public final void mA() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:527:11: ( ( 'a' | 'A' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:527:13: ( 'a' | 'A' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:527:11: ( ( 'a' | 'A' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:527:13: ( 'a' | 'A' )
             {
             if ( input.LA(1)=='A'||input.LA(1)=='a' ) {
                 input.consume();
@@ -1803,8 +1803,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "B"
     public final void mB() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:528:11: ( ( 'b' | 'B' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:528:13: ( 'b' | 'B' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:528:11: ( ( 'b' | 'B' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:528:13: ( 'b' | 'B' )
             {
             if ( input.LA(1)=='B'||input.LA(1)=='b' ) {
                 input.consume();
@@ -1827,8 +1827,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "C"
     public final void mC() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:529:11: ( ( 'c' | 'C' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:529:13: ( 'c' | 'C' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:529:11: ( ( 'c' | 'C' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:529:13: ( 'c' | 'C' )
             {
             if ( input.LA(1)=='C'||input.LA(1)=='c' ) {
                 input.consume();
@@ -1851,8 +1851,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "D"
     public final void mD() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:530:11: ( ( 'd' | 'D' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:530:13: ( 'd' | 'D' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:530:11: ( ( 'd' | 'D' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:530:13: ( 'd' | 'D' )
             {
             if ( input.LA(1)=='D'||input.LA(1)=='d' ) {
                 input.consume();
@@ -1875,8 +1875,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "E"
     public final void mE() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:531:11: ( ( 'e' | 'E' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:531:13: ( 'e' | 'E' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:531:11: ( ( 'e' | 'E' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:531:13: ( 'e' | 'E' )
             {
             if ( input.LA(1)=='E'||input.LA(1)=='e' ) {
                 input.consume();
@@ -1899,8 +1899,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "F"
     public final void mF() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:532:11: ( ( 'f' | 'F' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:532:13: ( 'f' | 'F' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:532:11: ( ( 'f' | 'F' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:532:13: ( 'f' | 'F' )
             {
             if ( input.LA(1)=='F'||input.LA(1)=='f' ) {
                 input.consume();
@@ -1923,8 +1923,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "G"
     public final void mG() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:533:11: ( ( 'g' | 'G' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:533:13: ( 'g' | 'G' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:533:11: ( ( 'g' | 'G' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:533:13: ( 'g' | 'G' )
             {
             if ( input.LA(1)=='G'||input.LA(1)=='g' ) {
                 input.consume();
@@ -1947,8 +1947,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "H"
     public final void mH() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:534:11: ( ( 'h' | 'H' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:534:13: ( 'h' | 'H' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:534:11: ( ( 'h' | 'H' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:534:13: ( 'h' | 'H' )
             {
             if ( input.LA(1)=='H'||input.LA(1)=='h' ) {
                 input.consume();
@@ -1971,8 +1971,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "I"
     public final void mI() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:535:11: ( ( 'i' | 'I' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:535:13: ( 'i' | 'I' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:535:11: ( ( 'i' | 'I' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:535:13: ( 'i' | 'I' )
             {
             if ( input.LA(1)=='I'||input.LA(1)=='i' ) {
                 input.consume();
@@ -1995,8 +1995,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "J"
     public final void mJ() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:536:11: ( ( 'j' | 'J' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:536:13: ( 'j' | 'J' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:536:11: ( ( 'j' | 'J' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:536:13: ( 'j' | 'J' )
             {
             if ( input.LA(1)=='J'||input.LA(1)=='j' ) {
                 input.consume();
@@ -2019,8 +2019,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "K"
     public final void mK() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:537:11: ( ( 'k' | 'K' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:537:13: ( 'k' | 'K' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:537:11: ( ( 'k' | 'K' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:537:13: ( 'k' | 'K' )
             {
             if ( input.LA(1)=='K'||input.LA(1)=='k' ) {
                 input.consume();
@@ -2043,8 +2043,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "L"
     public final void mL() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:538:11: ( ( 'l' | 'L' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:538:13: ( 'l' | 'L' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:538:11: ( ( 'l' | 'L' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:538:13: ( 'l' | 'L' )
             {
             if ( input.LA(1)=='L'||input.LA(1)=='l' ) {
                 input.consume();
@@ -2067,8 +2067,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "M"
     public final void mM() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:539:11: ( ( 'm' | 'M' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:539:13: ( 'm' | 'M' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:539:11: ( ( 'm' | 'M' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:539:13: ( 'm' | 'M' )
             {
             if ( input.LA(1)=='M'||input.LA(1)=='m' ) {
                 input.consume();
@@ -2091,8 +2091,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "N"
     public final void mN() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:540:11: ( ( 'n' | 'N' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:540:13: ( 'n' | 'N' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:540:11: ( ( 'n' | 'N' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:540:13: ( 'n' | 'N' )
             {
             if ( input.LA(1)=='N'||input.LA(1)=='n' ) {
                 input.consume();
@@ -2115,8 +2115,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "O"
     public final void mO() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:541:11: ( ( 'o' | 'O' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:541:13: ( 'o' | 'O' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:541:11: ( ( 'o' | 'O' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:541:13: ( 'o' | 'O' )
             {
             if ( input.LA(1)=='O'||input.LA(1)=='o' ) {
                 input.consume();
@@ -2139,8 +2139,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "P"
     public final void mP() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:542:11: ( ( 'p' | 'P' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:542:13: ( 'p' | 'P' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:542:11: ( ( 'p' | 'P' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:542:13: ( 'p' | 'P' )
             {
             if ( input.LA(1)=='P'||input.LA(1)=='p' ) {
                 input.consume();
@@ -2163,8 +2163,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "Q"
     public final void mQ() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:543:11: ( ( 'q' | 'Q' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:543:13: ( 'q' | 'Q' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:543:11: ( ( 'q' | 'Q' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:543:13: ( 'q' | 'Q' )
             {
             if ( input.LA(1)=='Q'||input.LA(1)=='q' ) {
                 input.consume();
@@ -2187,8 +2187,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "R"
     public final void mR() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:544:11: ( ( 'r' | 'R' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:544:13: ( 'r' | 'R' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:544:11: ( ( 'r' | 'R' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:544:13: ( 'r' | 'R' )
             {
             if ( input.LA(1)=='R'||input.LA(1)=='r' ) {
                 input.consume();
@@ -2211,8 +2211,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "S"
     public final void mS() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:545:11: ( ( 's' | 'S' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:545:13: ( 's' | 'S' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:545:11: ( ( 's' | 'S' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:545:13: ( 's' | 'S' )
             {
             if ( input.LA(1)=='S'||input.LA(1)=='s' ) {
                 input.consume();
@@ -2235,8 +2235,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "T"
     public final void mT() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:546:11: ( ( 't' | 'T' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:546:13: ( 't' | 'T' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:546:11: ( ( 't' | 'T' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:546:13: ( 't' | 'T' )
             {
             if ( input.LA(1)=='T'||input.LA(1)=='t' ) {
                 input.consume();
@@ -2259,8 +2259,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "U"
     public final void mU() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:547:11: ( ( 'u' | 'U' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:547:13: ( 'u' | 'U' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:547:11: ( ( 'u' | 'U' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:547:13: ( 'u' | 'U' )
             {
             if ( input.LA(1)=='U'||input.LA(1)=='u' ) {
                 input.consume();
@@ -2283,8 +2283,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "V"
     public final void mV() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:548:11: ( ( 'v' | 'V' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:548:13: ( 'v' | 'V' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:548:11: ( ( 'v' | 'V' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:548:13: ( 'v' | 'V' )
             {
             if ( input.LA(1)=='V'||input.LA(1)=='v' ) {
                 input.consume();
@@ -2307,8 +2307,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "W"
     public final void mW() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:549:11: ( ( 'w' | 'W' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:549:13: ( 'w' | 'W' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:549:11: ( ( 'w' | 'W' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:549:13: ( 'w' | 'W' )
             {
             if ( input.LA(1)=='W'||input.LA(1)=='w' ) {
                 input.consume();
@@ -2331,8 +2331,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "X"
     public final void mX() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:550:11: ( ( 'x' | 'X' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:550:13: ( 'x' | 'X' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:550:11: ( ( 'x' | 'X' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:550:13: ( 'x' | 'X' )
             {
             if ( input.LA(1)=='X'||input.LA(1)=='x' ) {
                 input.consume();
@@ -2355,8 +2355,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "Y"
     public final void mY() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:551:11: ( ( 'y' | 'Y' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:551:13: ( 'y' | 'Y' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:551:11: ( ( 'y' | 'Y' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:551:13: ( 'y' | 'Y' )
             {
             if ( input.LA(1)=='Y'||input.LA(1)=='y' ) {
                 input.consume();
@@ -2379,8 +2379,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "Z"
     public final void mZ() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:552:11: ( ( 'z' | 'Z' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:552:13: ( 'z' | 'Z' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:552:11: ( ( 'z' | 'Z' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:552:13: ( 'z' | 'Z' )
             {
             if ( input.LA(1)=='Z'||input.LA(1)=='z' ) {
                 input.consume();
@@ -2407,12 +2407,12 @@ public class CqlLexer extends Lexer {
             int _channel = DEFAULT_TOKEN_CHANNEL;
             int c;
 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:555:5: ( '\\'' (c=~ ( '\\'' ) | '\\'' '\\'' )* '\\'' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:555:7: '\\'' (c=~ ( '\\'' ) | '\\'' '\\'' )* '\\''
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:555:5: ( '\\'' (c=~ ( '\\'' ) | '\\'' '\\'' )* '\\'' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:555:7: '\\'' (c=~ ( '\\'' ) | '\\'' '\\'' )* '\\''
             {
             match('\''); 
              StringBuilder b = new StringBuilder(); 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:557:7: (c=~ ( '\\'' ) | '\\'' '\\'' )*
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:557:7: (c=~ ( '\\'' ) | '\\'' '\\'' )*
             loop4:
             do {
                 int alt4=3;
@@ -2434,7 +2434,7 @@ public class CqlLexer extends Lexer {
 
                 switch (alt4) {
             	case 1 :
-            	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:557:9: c=~ ( '\\'' )
+            	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:557:9: c=~ ( '\\'' )
             	    {
             	    c= input.LA(1);
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='&')||(input.LA(1)>='(' && input.LA(1)<='\uFFFF') ) {
@@ -2451,7 +2451,7 @@ public class CqlLexer extends Lexer {
             	    }
             	    break;
             	case 2 :
-            	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:558:9: '\\'' '\\''
+            	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:558:9: '\\'' '\\''
             	    {
             	    match('\''); 
             	    match('\''); 
@@ -2481,8 +2481,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "DIGIT"
     public final void mDIGIT() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:565:5: ( '0' .. '9' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:565:7: '0' .. '9'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:565:5: ( '0' .. '9' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:565:7: '0' .. '9'
             {
             matchRange('0','9'); 
 
@@ -2497,8 +2497,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "LETTER"
     public final void mLETTER() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:569:5: ( ( 'A' .. 'Z' | 'a' .. 'z' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:569:7: ( 'A' .. 'Z' | 'a' .. 'z' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:569:5: ( ( 'A' .. 'Z' | 'a' .. 'z' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:569:7: ( 'A' .. 'Z' | 'a' .. 'z' )
             {
             if ( (input.LA(1)>='A' && input.LA(1)<='Z')||(input.LA(1)>='a' && input.LA(1)<='z') ) {
                 input.consume();
@@ -2521,8 +2521,8 @@ public class CqlLexer extends Lexer {
     // $ANTLR start "HEX"
     public final void mHEX() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:573:5: ( ( 'A' .. 'F' | 'a' .. 'f' | '0' .. '9' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:573:7: ( 'A' .. 'F' | 'a' .. 'f' | '0' .. '9' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:573:5: ( ( 'A' .. 'F' | 'a' .. 'f' | '0' .. '9' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:573:7: ( 'A' .. 'F' | 'a' .. 'f' | '0' .. '9' )
             {
             if ( (input.LA(1)>='0' && input.LA(1)<='9')||(input.LA(1)>='A' && input.LA(1)<='F')||(input.LA(1)>='a' && input.LA(1)<='f') ) {
                 input.consume();
@@ -2547,8 +2547,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = RANGEOP;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:577:5: ( '..' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:577:7: '..'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:577:5: ( '..' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:577:7: '..'
             {
             match(".."); 
 
@@ -2568,10 +2568,10 @@ public class CqlLexer extends Lexer {
         try {
             int _type = INTEGER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:581:5: ( ( '-' )? ( DIGIT )+ )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:581:7: ( '-' )? ( DIGIT )+
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:581:5: ( ( '-' )? ( DIGIT )+ )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:581:7: ( '-' )? ( DIGIT )+
             {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:581:7: ( '-' )?
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:581:7: ( '-' )?
             int alt5=2;
             int LA5_0 = input.LA(1);
 
@@ -2580,7 +2580,7 @@ public class CqlLexer extends Lexer {
             }
             switch (alt5) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:581:7: '-'
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:581:7: '-'
                     {
                     match('-'); 
 
@@ -2589,7 +2589,7 @@ public class CqlLexer extends Lexer {
 
             }
 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:581:12: ( DIGIT )+
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:581:12: ( DIGIT )+
             int cnt6=0;
             loop6:
             do {
@@ -2603,7 +2603,7 @@ public class CqlLexer extends Lexer {
 
                 switch (alt6) {
             	case 1 :
-            	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:581:12: DIGIT
+            	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:581:12: DIGIT
             	    {
             	    mDIGIT(); 
 
@@ -2638,12 +2638,12 @@ public class CqlLexer extends Lexer {
             CommonToken d=null;
             CommonToken r=null;
 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:588:5: (d= INTEGER r= RANGEOP | INTEGER '.' INTEGER )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:588:5: (d= INTEGER r= RANGEOP | INTEGER '.' INTEGER )
             int alt7=2;
             alt7 = dfa7.predict(input);
             switch (alt7) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:588:7: d= INTEGER r= RANGEOP
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:588:7: d= INTEGER r= RANGEOP
                     {
                     int dStart1859 = getCharIndex();
                     mINTEGER(); 
@@ -2661,7 +2661,7 @@ public class CqlLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:595:9: INTEGER '.' INTEGER
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:595:9: INTEGER '.' INTEGER
                     {
                     mINTEGER(); 
                     match('.'); 
@@ -2684,11 +2684,11 @@ public class CqlLexer extends Lexer {
         try {
             int _type = IDENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:599:5: ( LETTER ( LETTER | DIGIT | '_' )* )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:599:7: LETTER ( LETTER | DIGIT | '_' )*
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:599:5: ( LETTER ( LETTER | DIGIT | '_' )* )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:599:7: LETTER ( LETTER | DIGIT | '_' )*
             {
             mLETTER(); 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:599:14: ( LETTER | DIGIT | '_' )*
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:599:14: ( LETTER | DIGIT | '_' )*
             loop8:
             do {
                 int alt8=2;
@@ -2701,7 +2701,7 @@ public class CqlLexer extends Lexer {
 
                 switch (alt8) {
             	case 1 :
-            	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:
+            	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:
             	    {
             	    if ( (input.LA(1)>='0' && input.LA(1)<='9')||(input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z') ) {
             	        input.consume();
@@ -2737,11 +2737,11 @@ public class CqlLexer extends Lexer {
         try {
             int _type = COMPIDENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:603:5: ( IDENT ( ':' IDENT )* )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:603:7: IDENT ( ':' IDENT )*
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:603:5: ( IDENT ( ':' IDENT )* )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:603:7: IDENT ( ':' IDENT )*
             {
             mIDENT(); 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:603:13: ( ':' IDENT )*
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:603:13: ( ':' IDENT )*
             loop9:
             do {
                 int alt9=2;
@@ -2754,7 +2754,7 @@ public class CqlLexer extends Lexer {
 
                 switch (alt9) {
             	case 1 :
-            	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:603:15: ':' IDENT
+            	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:603:15: ':' IDENT
             	    {
             	    match(':'); 
             	    mIDENT(); 
@@ -2783,8 +2783,8 @@ public class CqlLexer extends Lexer {
         try {
             int _type = UUID;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:607:5: ( HEX HEX HEX HEX HEX HEX HEX HEX '-' HEX HEX HEX HEX '-' HEX HEX HEX HEX '-' HEX HEX HEX HEX '-' HEX HEX HEX HEX HEX HEX HEX HEX HEX HEX HEX HEX )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:607:7: HEX HEX HEX HEX HEX HEX HEX HEX '-' HEX HEX HEX HEX '-' HEX HEX HEX HEX '-' HEX HEX HEX HEX '-' HEX HEX HEX HEX HEX HEX HEX HEX HEX HEX HEX HEX
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:607:5: ( HEX HEX HEX HEX HEX HEX HEX HEX '-' HEX HEX HEX HEX '-' HEX HEX HEX HEX '-' HEX HEX HEX HEX '-' HEX HEX HEX HEX HEX HEX HEX HEX HEX HEX HEX HEX )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:607:7: HEX HEX HEX HEX HEX HEX HEX HEX '-' HEX HEX HEX HEX '-' HEX HEX HEX HEX '-' HEX HEX HEX HEX '-' HEX HEX HEX HEX HEX HEX HEX HEX HEX HEX HEX HEX
             {
             mHEX(); 
             mHEX(); 
@@ -2838,10 +2838,10 @@ public class CqlLexer extends Lexer {
         try {
             int _type = WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:615:5: ( ( ' ' | '\\t' | '\\n' | '\\r' )+ )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:615:7: ( ' ' | '\\t' | '\\n' | '\\r' )+
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:615:5: ( ( ' ' | '\\t' | '\\n' | '\\r' )+ )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:615:7: ( ' ' | '\\t' | '\\n' | '\\r' )+
             {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:615:7: ( ' ' | '\\t' | '\\n' | '\\r' )+
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:615:7: ( ' ' | '\\t' | '\\n' | '\\r' )+
             int cnt10=0;
             loop10:
             do {
@@ -2855,7 +2855,7 @@ public class CqlLexer extends Lexer {
 
                 switch (alt10) {
             	case 1 :
-            	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:
+            	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:
             	    {
             	    if ( (input.LA(1)>='\t' && input.LA(1)<='\n')||input.LA(1)=='\r'||input.LA(1)==' ' ) {
             	        input.consume();
@@ -2896,10 +2896,10 @@ public class CqlLexer extends Lexer {
         try {
             int _type = COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:619:5: ( ( '--' | '//' ) ( . )* ( '\\n' | '\\r' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:619:7: ( '--' | '//' ) ( . )* ( '\\n' | '\\r' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:619:5: ( ( '--' | '//' ) ( . )* ( '\\n' | '\\r' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:619:7: ( '--' | '//' ) ( . )* ( '\\n' | '\\r' )
             {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:619:7: ( '--' | '//' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:619:7: ( '--' | '//' )
             int alt11=2;
             int LA11_0 = input.LA(1);
 
@@ -2917,7 +2917,7 @@ public class CqlLexer extends Lexer {
             }
             switch (alt11) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:619:8: '--'
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:619:8: '--'
                     {
                     match("--"); 
 
@@ -2925,7 +2925,7 @@ public class CqlLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:619:15: '//'
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:619:15: '//'
                     {
                     match("//"); 
 
@@ -2935,7 +2935,7 @@ public class CqlLexer extends Lexer {
 
             }
 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:619:21: ( . )*
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:619:21: ( . )*
             loop12:
             do {
                 int alt12=2;
@@ -2951,7 +2951,7 @@ public class CqlLexer extends Lexer {
 
                 switch (alt12) {
             	case 1 :
-            	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:619:21: .
+            	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:619:21: .
             	    {
             	    matchAny(); 
 
@@ -2989,12 +2989,12 @@ public class CqlLexer extends Lexer {
         try {
             int _type = MULTILINE_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:623:5: ( '/*' ( . )* '*/' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:623:7: '/*' ( . )* '*/'
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:623:5: ( '/*' ( . )* '*/' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:623:7: '/*' ( . )* '*/'
             {
             match("/*"); 
 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:623:12: ( . )*
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:623:12: ( . )*
             loop13:
             do {
                 int alt13=2;
@@ -3019,7 +3019,7 @@ public class CqlLexer extends Lexer {
 
                 switch (alt13) {
             	case 1 :
-            	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:623:12: .
+            	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:623:12: .
             	    {
             	    matchAny(); 
 
@@ -3046,509 +3046,509 @@ public class CqlLexer extends Lexer {
     // $ANTLR end "MULTILINE_COMMENT"
 
     public void mTokens() throws RecognitionException {
-        // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:8: ( T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | T__90 | T__91 | T__92 | T__93 | T__94 | T__95 | T__96 | T__97 | T__98 | T__99 | T__100 | T__101 | T__102 | T__103 | T__104 | K_SELECT | K_FROM | K_WHERE | K_AND | K_KEY | K_INSERT | K_UPDATE | K_WITH | K_LIMIT | K_USING | K_CONSISTENCY | K_LEVEL | K_USE | K_FIRST | K_REVERSED | K_COUNT | K_SET | K_BEGIN | K_APPLY | K_BATCH | K_TRUNCATE | K_DELETE | K_IN | K_CREATE | K_KEYSPACE | K_COLUMNFAMILY | K_INDEX | K_ON | K_DROP | K_PRIMARY | K_INTO | K_VALUES | K_TIMESTAMP | K_TTL | K_ALTER | K_ADD | K_TYPE | STRING_LITERAL | RANGEOP | INTEGER | FLOAT | IDENT | COMPIDENT | UUID | WS | COMMENT | MULTILINE_COMMENT )
+        // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:8: ( T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | T__90 | T__91 | T__92 | T__93 | T__94 | T__95 | T__96 | T__97 | T__98 | T__99 | T__100 | T__101 | T__102 | T__103 | T__104 | K_SELECT | K_FROM | K_WHERE | K_AND | K_KEY | K_INSERT | K_UPDATE | K_WITH | K_LIMIT | K_USING | K_CONSISTENCY | K_LEVEL | K_USE | K_FIRST | K_REVERSED | K_COUNT | K_SET | K_BEGIN | K_APPLY | K_BATCH | K_TRUNCATE | K_DELETE | K_IN | K_CREATE | K_KEYSPACE | K_COLUMNFAMILY | K_INDEX | K_ON | K_DROP | K_PRIMARY | K_INTO | K_VALUES | K_TIMESTAMP | K_TTL | K_ALTER | K_ADD | K_TYPE | STRING_LITERAL | RANGEOP | INTEGER | FLOAT | IDENT | COMPIDENT | UUID | WS | COMMENT | MULTILINE_COMMENT )
         int alt14=72;
         alt14 = dfa14.predict(input);
         switch (alt14) {
             case 1 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:10: T__80
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:10: T__80
                 {
                 mT__80(); 
 
                 }
                 break;
             case 2 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:16: T__81
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:16: T__81
                 {
                 mT__81(); 
 
                 }
                 break;
             case 3 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:22: T__82
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:22: T__82
                 {
                 mT__82(); 
 
                 }
                 break;
             case 4 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:28: T__83
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:28: T__83
                 {
                 mT__83(); 
 
                 }
                 break;
             case 5 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:34: T__84
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:34: T__84
                 {
                 mT__84(); 
 
                 }
                 break;
             case 6 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:40: T__85
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:40: T__85
                 {
                 mT__85(); 
 
                 }
                 break;
             case 7 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:46: T__86
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:46: T__86
                 {
                 mT__86(); 
 
                 }
                 break;
             case 8 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:52: T__87
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:52: T__87
                 {
                 mT__87(); 
 
                 }
                 break;
             case 9 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:58: T__88
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:58: T__88
                 {
                 mT__88(); 
 
                 }
                 break;
             case 10 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:64: T__89
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:64: T__89
                 {
                 mT__89(); 
 
                 }
                 break;
             case 11 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:70: T__90
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:70: T__90
                 {
                 mT__90(); 
 
                 }
                 break;
             case 12 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:76: T__91
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:76: T__91
                 {
                 mT__91(); 
 
                 }
                 break;
             case 13 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:82: T__92
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:82: T__92
                 {
                 mT__92(); 
 
                 }
                 break;
             case 14 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:88: T__93
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:88: T__93
                 {
                 mT__93(); 
 
                 }
                 break;
             case 15 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:94: T__94
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:94: T__94
                 {
                 mT__94(); 
 
                 }
                 break;
             case 16 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:100: T__95
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:100: T__95
                 {
                 mT__95(); 
 
                 }
                 break;
             case 17 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:106: T__96
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:106: T__96
                 {
                 mT__96(); 
 
                 }
                 break;
             case 18 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:112: T__97
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:112: T__97
                 {
                 mT__97(); 
 
                 }
                 break;
             case 19 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:118: T__98
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:118: T__98
                 {
                 mT__98(); 
 
                 }
                 break;
             case 20 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:124: T__99
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:124: T__99
                 {
                 mT__99(); 
 
                 }
                 break;
             case 21 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:130: T__100
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:130: T__100
                 {
                 mT__100(); 
 
                 }
                 break;
             case 22 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:137: T__101
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:137: T__101
                 {
                 mT__101(); 
 
                 }
                 break;
             case 23 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:144: T__102
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:144: T__102
                 {
                 mT__102(); 
 
                 }
                 break;
             case 24 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:151: T__103
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:151: T__103
                 {
                 mT__103(); 
 
                 }
                 break;
             case 25 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:158: T__104
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:158: T__104
                 {
                 mT__104(); 
 
                 }
                 break;
             case 26 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:165: K_SELECT
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:165: K_SELECT
                 {
                 mK_SELECT(); 
 
                 }
                 break;
             case 27 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:174: K_FROM
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:174: K_FROM
                 {
                 mK_FROM(); 
 
                 }
                 break;
             case 28 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:181: K_WHERE
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:181: K_WHERE
                 {
                 mK_WHERE(); 
 
                 }
                 break;
             case 29 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:189: K_AND
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:189: K_AND
                 {
                 mK_AND(); 
 
                 }
                 break;
             case 30 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:195: K_KEY
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:195: K_KEY
                 {
                 mK_KEY(); 
 
                 }
                 break;
             case 31 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:201: K_INSERT
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:201: K_INSERT
                 {
                 mK_INSERT(); 
 
                 }
                 break;
             case 32 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:210: K_UPDATE
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:210: K_UPDATE
                 {
                 mK_UPDATE(); 
 
                 }
                 break;
             case 33 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:219: K_WITH
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:219: K_WITH
                 {
                 mK_WITH(); 
 
                 }
                 break;
             case 34 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:226: K_LIMIT
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:226: K_LIMIT
                 {
                 mK_LIMIT(); 
 
                 }
                 break;
             case 35 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:234: K_USING
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:234: K_USING
                 {
                 mK_USING(); 
 
                 }
                 break;
             case 36 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:242: K_CONSISTENCY
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:242: K_CONSISTENCY
                 {
                 mK_CONSISTENCY(); 
 
                 }
                 break;
             case 37 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:256: K_LEVEL
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:256: K_LEVEL
                 {
                 mK_LEVEL(); 
 
                 }
                 break;
             case 38 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:264: K_USE
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:264: K_USE
                 {
                 mK_USE(); 
 
                 }
                 break;
             case 39 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:270: K_FIRST
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:270: K_FIRST
                 {
                 mK_FIRST(); 
 
                 }
                 break;
             case 40 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:278: K_REVERSED
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:278: K_REVERSED
                 {
                 mK_REVERSED(); 
 
                 }
                 break;
             case 41 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:289: K_COUNT
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:289: K_COUNT
                 {
                 mK_COUNT(); 
 
                 }
                 break;
             case 42 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:297: K_SET
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:297: K_SET
                 {
                 mK_SET(); 
 
                 }
                 break;
             case 43 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:303: K_BEGIN
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:303: K_BEGIN
                 {
                 mK_BEGIN(); 
 
                 }
                 break;
             case 44 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:311: K_APPLY
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:311: K_APPLY
                 {
                 mK_APPLY(); 
 
                 }
                 break;
             case 45 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:319: K_BATCH
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:319: K_BATCH
                 {
                 mK_BATCH(); 
 
                 }
                 break;
             case 46 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:327: K_TRUNCATE
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:327: K_TRUNCATE
                 {
                 mK_TRUNCATE(); 
 
                 }
                 break;
             case 47 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:338: K_DELETE
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:338: K_DELETE
                 {
                 mK_DELETE(); 
 
                 }
                 break;
             case 48 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:347: K_IN
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:347: K_IN
                 {
                 mK_IN(); 
 
                 }
                 break;
             case 49 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:352: K_CREATE
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:352: K_CREATE
                 {
                 mK_CREATE(); 
 
                 }
                 break;
             case 50 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:361: K_KEYSPACE
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:361: K_KEYSPACE
                 {
                 mK_KEYSPACE(); 
 
                 }
                 break;
             case 51 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:372: K_COLUMNFAMILY
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:372: K_COLUMNFAMILY
                 {
                 mK_COLUMNFAMILY(); 
 
                 }
                 break;
             case 52 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:387: K_INDEX
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:387: K_INDEX
                 {
                 mK_INDEX(); 
 
                 }
                 break;
             case 53 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:395: K_ON
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:395: K_ON
                 {
                 mK_ON(); 
 
                 }
                 break;
             case 54 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:400: K_DROP
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:400: K_DROP
                 {
                 mK_DROP(); 
 
                 }
                 break;
             case 55 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:407: K_PRIMARY
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:407: K_PRIMARY
                 {
                 mK_PRIMARY(); 
 
                 }
                 break;
             case 56 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:417: K_INTO
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:417: K_INTO
                 {
                 mK_INTO(); 
 
                 }
                 break;
             case 57 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:424: K_VALUES
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:424: K_VALUES
                 {
                 mK_VALUES(); 
 
                 }
                 break;
             case 58 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:433: K_TIMESTAMP
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:433: K_TIMESTAMP
                 {
                 mK_TIMESTAMP(); 
 
                 }
                 break;
             case 59 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:445: K_TTL
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:445: K_TTL
                 {
                 mK_TTL(); 
 
                 }
                 break;
             case 60 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:451: K_ALTER
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:451: K_ALTER
                 {
                 mK_ALTER(); 
 
                 }
                 break;
             case 61 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:459: K_ADD
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:459: K_ADD
                 {
                 mK_ADD(); 
 
                 }
                 break;
             case 62 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:465: K_TYPE
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:465: K_TYPE
                 {
                 mK_TYPE(); 
 
                 }
                 break;
             case 63 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:472: STRING_LITERAL
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:472: STRING_LITERAL
                 {
                 mSTRING_LITERAL(); 
 
                 }
                 break;
             case 64 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:487: RANGEOP
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:487: RANGEOP
                 {
                 mRANGEOP(); 
 
                 }
                 break;
             case 65 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:495: INTEGER
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:495: INTEGER
                 {
                 mINTEGER(); 
 
                 }
                 break;
             case 66 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:503: FLOAT
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:503: FLOAT
                 {
                 mFLOAT(); 
 
                 }
                 break;
             case 67 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:509: IDENT
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:509: IDENT
                 {
                 mIDENT(); 
 
                 }
                 break;
             case 68 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:515: COMPIDENT
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:515: COMPIDENT
                 {
                 mCOMPIDENT(); 
 
                 }
                 break;
             case 69 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:525: UUID
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:525: UUID
                 {
                 mUUID(); 
 
                 }
                 break;
             case 70 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:530: WS
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:530: WS
                 {
                 mWS(); 
 
                 }
                 break;
             case 71 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:533: COMMENT
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:533: COMMENT
                 {
                 mCOMMENT(); 
 
                 }
                 break;
             case 72 :
-                // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:1:541: MULTILINE_COMMENT
+                // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:1:541: MULTILINE_COMMENT
                 {
                 mMULTILINE_COMMENT(); 
 

@@ -468,7 +468,8 @@ service Cassandra {
   list<ColumnOrSuperColumn> get_slice(1:required binary key, 
                                       2:required ColumnParent column_parent, 
                                       3:required SlicePredicate predicate, 
-                                      4:required ConsistencyLevel consistency_level=ConsistencyLevel.ONE)
+                                      4:required ConsistencyLevel consistency_level=ConsistencyLevel.ONE,
+                                      5:required binary parameterizedVariable)
                             throws (1:InvalidRequestException ire, 2:UnavailableException ue, 3:TimedOutException te),
 
   /**

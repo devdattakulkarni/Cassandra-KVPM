@@ -55,6 +55,11 @@ public class ClientState {
     public ClientState() {
         reset();
     }
+    
+    /* -- Get the authenticated user for provenance tracking as part of KVPM. January 9 2013 -- */
+    public AuthenticatedUser getAuthenticatedUser() {
+    	return this.user;
+    }
 
     public String getKeyspace() throws InvalidRequestException {
         if (keyspace == null)

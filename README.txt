@@ -49,6 +49,11 @@ Running Cassandra with K-VAC for the example Policy:
 7) Execute a get:
    - get Doctor[jsmith];
 
+Build Path
+-----------
+Add following folders: ./build/classes/thrift, ./build/test/classes, ./test/conf
+Add jars from the following folders: ./build/lib/jars, ./build/sources/jars 
+
 DISCLAIMER:
 ------------
 This code is currently at an experimental stage. PLEASE DO NOT use it for 
@@ -56,4 +61,9 @@ any critical projects. If you are looking for official version of Cassandra,
 it can be found at:
 
 http://cassandra.apache.org/
+
+
+
+A
+A
 

@@ -1,4 +1,4 @@
-// $ANTLR 3.2 Sep 23, 2009 12:02:23 /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g 2012-07-23 11:05:50
+// $ANTLR 3.2 Sep 23, 2009 12:02:23 /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g 2013-01-17 05:32:45
 
     package org.apache.cassandra.cql;
     import java.util.Map;
@@ -138,7 +138,7 @@ public class CqlParser extends Parser {
         
 
     public String[] getTokenNames() { return CqlParser.tokenNames; }
-    public String getGrammarFileName() { return "/Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g"; }
+    public String getGrammarFileName() { return "/home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g"; }
 
 
         private List<String> recognitionErrors = new ArrayList<String>();
@@ -164,7 +164,7 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "query"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:105:1: query returns [CQLStatement stmnt] : ( selectStatement | insertStatement endStmnt | updateStatement endStmnt | batchStatement | useStatement | truncateStatement | deleteStatement endStmnt | createKeyspaceStatement | createColumnFamilyStatement | createIndexStatement | dropIndexStatement | dropKeyspaceStatement | dropColumnFamilyStatement | alterTableStatement );
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:105:1: query returns [CQLStatement stmnt] : ( selectStatement | insertStatement endStmnt | updateStatement endStmnt | batchStatement | useStatement | truncateStatement | deleteStatement endStmnt | createKeyspaceStatement | createColumnFamilyStatement | createIndexStatement | dropIndexStatement | dropKeyspaceStatement | dropColumnFamilyStatement | alterTableStatement );
     public final CQLStatement query() throws RecognitionException {
         CQLStatement stmnt = null;
 
@@ -198,12 +198,12 @@ public class CqlParser extends Parser {
 
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:106:5: ( selectStatement | insertStatement endStmnt | updateStatement endStmnt | batchStatement | useStatement | truncateStatement | deleteStatement endStmnt | createKeyspaceStatement | createColumnFamilyStatement | createIndexStatement | dropIndexStatement | dropKeyspaceStatement | dropColumnFamilyStatement | alterTableStatement )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:106:5: ( selectStatement | insertStatement endStmnt | updateStatement endStmnt | batchStatement | useStatement | truncateStatement | deleteStatement endStmnt | createKeyspaceStatement | createColumnFamilyStatement | createIndexStatement | dropIndexStatement | dropKeyspaceStatement | dropColumnFamilyStatement | alterTableStatement )
             int alt1=14;
             alt1 = dfa1.predict(input);
             switch (alt1) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:106:7: selectStatement
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:106:7: selectStatement
                     {
                     pushFollow(FOLLOW_selectStatement_in_query69);
                     selectStatement1=selectStatement();
@@ -215,7 +215,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:107:7: insertStatement endStmnt
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:107:7: insertStatement endStmnt
                     {
                     pushFollow(FOLLOW_insertStatement_in_query81);
                     insertStatement2=insertStatement();
@@ -232,7 +232,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:108:7: updateStatement endStmnt
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:108:7: updateStatement endStmnt
                     {
                     pushFollow(FOLLOW_updateStatement_in_query93);
                     updateStatement3=updateStatement();
@@ -249,7 +249,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 4 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:109:7: batchStatement
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:109:7: batchStatement
                     {
                     pushFollow(FOLLOW_batchStatement_in_query105);
                     batchStatement4=batchStatement();
@@ -261,7 +261,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 5 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:110:7: useStatement
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:110:7: useStatement
                     {
                     pushFollow(FOLLOW_useStatement_in_query115);
                     useStatement5=useStatement();
@@ -273,7 +273,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 6 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:111:7: truncateStatement
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:111:7: truncateStatement
                     {
                     pushFollow(FOLLOW_truncateStatement_in_query130);
                     truncateStatement6=truncateStatement();
@@ -285,7 +285,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 7 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:112:7: deleteStatement endStmnt
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:112:7: deleteStatement endStmnt
                     {
                     pushFollow(FOLLOW_deleteStatement_in_query140);
                     deleteStatement7=deleteStatement();
@@ -302,7 +302,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 8 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:113:7: createKeyspaceStatement
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:113:7: createKeyspaceStatement
                     {
                     pushFollow(FOLLOW_createKeyspaceStatement_in_query152);
                     createKeyspaceStatement8=createKeyspaceStatement();
@@ -314,7 +314,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 9 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:114:7: createColumnFamilyStatement
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:114:7: createColumnFamilyStatement
                     {
                     pushFollow(FOLLOW_createColumnFamilyStatement_in_query162);
                     createColumnFamilyStatement9=createColumnFamilyStatement();
@@ -326,7 +326,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 10 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:115:7: createIndexStatement
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:115:7: createIndexStatement
                     {
                     pushFollow(FOLLOW_createIndexStatement_in_query172);
                     createIndexStatement10=createIndexStatement();
@@ -338,7 +338,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 11 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:116:7: dropIndexStatement
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:116:7: dropIndexStatement
                     {
                     pushFollow(FOLLOW_dropIndexStatement_in_query182);
                     dropIndexStatement11=dropIndexStatement();
@@ -350,7 +350,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 12 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:117:7: dropKeyspaceStatement
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:117:7: dropKeyspaceStatement
                     {
                     pushFollow(FOLLOW_dropKeyspaceStatement_in_query194);
                     dropKeyspaceStatement12=dropKeyspaceStatement();
@@ -362,7 +362,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 13 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:118:7: dropColumnFamilyStatement
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:118:7: dropColumnFamilyStatement
                     {
                     pushFollow(FOLLOW_dropColumnFamilyStatement_in_query204);
                     dropColumnFamilyStatement13=dropColumnFamilyStatement();
@@ -374,7 +374,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 14 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:119:7: alterTableStatement
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:119:7: alterTableStatement
                     {
                     pushFollow(FOLLOW_alterTableStatement_in_query214);
                     alterTableStatement14=alterTableStatement();
@@ -400,15 +400,15 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "useStatement"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:123:1: useStatement returns [String keyspace] : K_USE IDENT endStmnt ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:123:1: useStatement returns [String keyspace] : K_USE IDENT endStmnt ;
     public final String useStatement() throws RecognitionException {
         String keyspace = null;
 
         Token IDENT15=null;
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:124:5: ( K_USE IDENT endStmnt )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:124:7: K_USE IDENT endStmnt
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:124:5: ( K_USE IDENT endStmnt )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:124:7: K_USE IDENT endStmnt
             {
             match(input,K_USE,FOLLOW_K_USE_in_useStatement238); 
             IDENT15=(Token)match(input,IDENT,FOLLOW_IDENT_in_useStatement240); 
@@ -434,7 +434,7 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "selectStatement"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:127:1: selectStatement returns [SelectStatement expr] : K_SELECT (s1= selectExpression | K_COUNT '(' s2= selectExpression ')' ) K_FROM columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) ( K_USING K_CONSISTENCY K_LEVEL )? ( K_WHERE whereClause )? ( K_LIMIT rows= INTEGER )? endStmnt ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:127:1: selectStatement returns [SelectStatement expr] : K_SELECT (s1= selectExpression | K_COUNT '(' s2= selectExpression ')' ) K_FROM columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) ( K_USING K_CONSISTENCY K_LEVEL )? ( K_WHERE whereClause )? ( K_LIMIT rows= INTEGER )? endStmnt ;
     public final SelectStatement selectStatement() throws RecognitionException {
         SelectStatement expr = null;
 
@@ -449,8 +449,8 @@ public class CqlParser extends Parser {
 
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:140:5: ( K_SELECT (s1= selectExpression | K_COUNT '(' s2= selectExpression ')' ) K_FROM columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) ( K_USING K_CONSISTENCY K_LEVEL )? ( K_WHERE whereClause )? ( K_LIMIT rows= INTEGER )? endStmnt )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:140:7: K_SELECT (s1= selectExpression | K_COUNT '(' s2= selectExpression ')' ) K_FROM columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) ( K_USING K_CONSISTENCY K_LEVEL )? ( K_WHERE whereClause )? ( K_LIMIT rows= INTEGER )? endStmnt
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:140:5: ( K_SELECT (s1= selectExpression | K_COUNT '(' s2= selectExpression ')' ) K_FROM columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) ( K_USING K_CONSISTENCY K_LEVEL )? ( K_WHERE whereClause )? ( K_LIMIT rows= INTEGER )? endStmnt )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:140:7: K_SELECT (s1= selectExpression | K_COUNT '(' s2= selectExpression ')' ) K_FROM columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) ( K_USING K_CONSISTENCY K_LEVEL )? ( K_WHERE whereClause )? ( K_LIMIT rows= INTEGER )? endStmnt
             {
              
                       int numRecords = 10000;
@@ -459,7 +459,7 @@ public class CqlParser extends Parser {
                       ConsistencyLevel cLevel = ConsistencyLevel.ONE;
                   
             match(input,K_SELECT,FOLLOW_K_SELECT_in_selectStatement275); 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:147:11: (s1= selectExpression | K_COUNT '(' s2= selectExpression ')' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:147:11: (s1= selectExpression | K_COUNT '(' s2= selectExpression ')' )
             int alt2=2;
             int LA2_0 = input.LA(1);
 
@@ -477,7 +477,7 @@ public class CqlParser extends Parser {
             }
             switch (alt2) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:147:13: s1= selectExpression
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:147:13: s1= selectExpression
                     {
                     pushFollow(FOLLOW_selectExpression_in_selectStatement291);
                     s1=selectExpression();
@@ -489,7 +489,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:148:13: K_COUNT '(' s2= selectExpression ')'
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:148:13: K_COUNT '(' s2= selectExpression ')'
                     {
                     match(input,K_COUNT,FOLLOW_K_COUNT_in_selectStatement323); 
                     match(input,80,FOLLOW_80_in_selectStatement325); 
@@ -517,7 +517,7 @@ public class CqlParser extends Parser {
                 throw mse;
             }
 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:151:11: ( K_USING K_CONSISTENCY K_LEVEL )?
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:151:11: ( K_USING K_CONSISTENCY K_LEVEL )?
             int alt3=2;
             int LA3_0 = input.LA(1);
 
@@ -526,7 +526,7 @@ public class CqlParser extends Parser {
             }
             switch (alt3) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:151:13: K_USING K_CONSISTENCY K_LEVEL
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:151:13: K_USING K_CONSISTENCY K_LEVEL
                     {
                     match(input,K_USING,FOLLOW_K_USING_in_selectStatement387); 
                     match(input,K_CONSISTENCY,FOLLOW_K_CONSISTENCY_in_selectStatement389); 
@@ -538,7 +538,7 @@ public class CqlParser extends Parser {
 
             }
 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:152:11: ( K_WHERE whereClause )?
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:152:11: ( K_WHERE whereClause )?
             int alt4=2;
             int LA4_0 = input.LA(1);
 
@@ -547,7 +547,7 @@ public class CqlParser extends Parser {
             }
             switch (alt4) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:152:13: K_WHERE whereClause
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:152:13: K_WHERE whereClause
                     {
                     match(input,K_WHERE,FOLLOW_K_WHERE_in_selectStatement410); 
                     pushFollow(FOLLOW_whereClause_in_selectStatement412);
@@ -561,7 +561,7 @@ public class CqlParser extends Parser {
 
             }
 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:153:11: ( K_LIMIT rows= INTEGER )?
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:153:11: ( K_LIMIT rows= INTEGER )?
             int alt5=2;
             int LA5_0 = input.LA(1);
 
@@ -570,7 +570,7 @@ public class CqlParser extends Parser {
             }
             switch (alt5) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:153:13: K_LIMIT rows= INTEGER
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:153:13: K_LIMIT rows= INTEGER
                     {
                     match(input,K_LIMIT,FOLLOW_K_LIMIT_in_selectStatement429); 
                     rows=(Token)match(input,INTEGER,FOLLOW_INTEGER_in_selectStatement433); 
@@ -610,7 +610,7 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "selectExpression"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:167:1: selectExpression returns [SelectExpression expr] : ( K_FIRST cols= INTEGER )? ( K_REVERSED )? (first= term ( ',' next= term )* | start= term RANGEOP finish= term | '\\*' ) ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:167:1: selectExpression returns [SelectExpression expr] : ( K_FIRST cols= INTEGER )? ( K_REVERSED )? (first= term ( ',' next= term )* | start= term RANGEOP finish= term | '\\*' ) ;
     public final SelectExpression selectExpression() throws RecognitionException {
         SelectExpression expr = null;
 
@@ -625,14 +625,14 @@ public class CqlParser extends Parser {
 
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:168:5: ( ( K_FIRST cols= INTEGER )? ( K_REVERSED )? (first= term ( ',' next= term )* | start= term RANGEOP finish= term | '\\*' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:168:7: ( K_FIRST cols= INTEGER )? ( K_REVERSED )? (first= term ( ',' next= term )* | start= term RANGEOP finish= term | '\\*' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:168:5: ( ( K_FIRST cols= INTEGER )? ( K_REVERSED )? (first= term ( ',' next= term )* | start= term RANGEOP finish= term | '\\*' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:168:7: ( K_FIRST cols= INTEGER )? ( K_REVERSED )? (first= term ( ',' next= term )* | start= term RANGEOP finish= term | '\\*' )
             {
 
                       int count = 10000;
                       boolean reversed = false;
                   
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:172:7: ( K_FIRST cols= INTEGER )?
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:172:7: ( K_FIRST cols= INTEGER )?
             int alt6=2;
             int LA6_0 = input.LA(1);
 
@@ -641,7 +641,7 @@ public class CqlParser extends Parser {
             }
             switch (alt6) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:172:9: K_FIRST cols= INTEGER
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:172:9: K_FIRST cols= INTEGER
                     {
                     match(input,K_FIRST,FOLLOW_K_FIRST_in_selectExpression491); 
                     cols=(Token)match(input,INTEGER,FOLLOW_INTEGER_in_selectExpression495); 
@@ -652,7 +652,7 @@ public class CqlParser extends Parser {
 
             }
 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:173:7: ( K_REVERSED )?
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:173:7: ( K_REVERSED )?
             int alt7=2;
             int LA7_0 = input.LA(1);
 
@@ -661,7 +661,7 @@ public class CqlParser extends Parser {
             }
             switch (alt7) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:173:9: K_REVERSED
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:173:9: K_REVERSED
                     {
                     match(input,K_REVERSED,FOLLOW_K_REVERSED_in_selectExpression510); 
                      reversed = true; 
@@ -671,12 +671,12 @@ public class CqlParser extends Parser {
 
             }
 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:174:7: (first= term ( ',' next= term )* | start= term RANGEOP finish= term | '\\*' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:174:7: (first= term ( ',' next= term )* | start= term RANGEOP finish= term | '\\*' )
             int alt9=3;
             alt9 = dfa9.predict(input);
             switch (alt9) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:174:9: first= term ( ',' next= term )*
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:174:9: first= term ( ',' next= term )*
                     {
                     pushFollow(FOLLOW_term_in_selectExpression527);
                     first=term();
@@ -684,7 +684,7 @@ public class CqlParser extends Parser {
                     state._fsp--;
 
                      expr = new SelectExpression(first, count, reversed); 
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:175:13: ( ',' next= term )*
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:175:13: ( ',' next= term )*
                     loop8:
                     do {
                         int alt8=2;
@@ -697,7 +697,7 @@ public class CqlParser extends Parser {
 
                         switch (alt8) {
                     	case 1 :
-                    	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:175:14: ',' next= term
+                    	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:175:14: ',' next= term
                     	    {
                     	    match(input,82,FOLLOW_82_in_selectExpression544); 
                     	    pushFollow(FOLLOW_term_in_selectExpression548);
@@ -719,7 +719,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:176:9: start= term RANGEOP finish= term
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:176:9: start= term RANGEOP finish= term
                     {
                     pushFollow(FOLLOW_term_in_selectExpression564);
                     start=term();
@@ -737,7 +737,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:177:9: '\\*'
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:177:9: '\\*'
                     {
                     match(input,83,FOLLOW_83_in_selectExpression582); 
                      expr = new SelectExpression(new Term(), new Term(), count, reversed, true); 
@@ -763,7 +763,7 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "whereClause"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:182:1: whereClause returns [WhereClause clause] : (first= relation ( K_AND next= relation )* | key_alias= term K_IN '(' f1= term ( ',' fN= term )* ')' );
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:182:1: whereClause returns [WhereClause clause] : (first= relation ( K_AND next= relation )* | key_alias= term K_IN '(' f1= term ( ',' fN= term )* ')' );
     public final WhereClause whereClause() throws RecognitionException {
         WhereClause clause = null;
 
@@ -782,7 +782,7 @@ public class CqlParser extends Parser {
                 WhereClause inClause = new WhereClause();
             
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:186:5: (first= relation ( K_AND next= relation )* | key_alias= term K_IN '(' f1= term ( ',' fN= term )* ')' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:186:5: (first= relation ( K_AND next= relation )* | key_alias= term K_IN '(' f1= term ( ',' fN= term )* ')' )
             int alt12=2;
             switch ( input.LA(1) ) {
             case K_KEY:
@@ -902,7 +902,7 @@ public class CqlParser extends Parser {
 
             switch (alt12) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:186:7: first= relation ( K_AND next= relation )*
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:186:7: first= relation ( K_AND next= relation )*
                     {
                     pushFollow(FOLLOW_relation_in_whereClause625);
                     first=relation();
@@ -910,7 +910,7 @@ public class CqlParser extends Parser {
                     state._fsp--;
 
                      clause = new WhereClause(first); 
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:187:11: ( K_AND next= relation )*
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:187:11: ( K_AND next= relation )*
                     loop10:
                     do {
                         int alt10=2;
@@ -923,7 +923,7 @@ public class CqlParser extends Parser {
 
                         switch (alt10) {
                     	case 1 :
-                    	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:187:12: K_AND next= relation
+                    	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:187:12: K_AND next= relation
                     	    {
                     	    match(input,K_AND,FOLLOW_K_AND_in_whereClause641); 
                     	    pushFollow(FOLLOW_relation_in_whereClause645);
@@ -945,7 +945,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:188:9: key_alias= term K_IN '(' f1= term ( ',' fN= term )* ')'
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:188:9: key_alias= term K_IN '(' f1= term ( ',' fN= term )* ')'
                     {
                     pushFollow(FOLLOW_term_in_whereClause661);
                     key_alias=term();
@@ -961,7 +961,7 @@ public class CqlParser extends Parser {
                     state._fsp--;
 
                      inClause.andKeyEquals(f1); 
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:190:19: ( ',' fN= term )*
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:190:19: ( ',' fN= term )*
                     loop11:
                     do {
                         int alt11=2;
@@ -974,7 +974,7 @@ public class CqlParser extends Parser {
 
                         switch (alt11) {
                     	case 1 :
-                    	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:190:20: ',' fN= term
+                    	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:190:20: ',' fN= term
                     	    {
                     	    match(input,82,FOLLOW_82_in_whereClause705); 
                     	    pushFollow(FOLLOW_term_in_whereClause709);
@@ -1012,7 +1012,7 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "insertStatement"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:194:1: insertStatement returns [UpdateStatement expr] : K_INSERT K_INTO columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) '(' key_alias= term ( ',' column_name= term )+ ')' K_VALUES '(' key= term ( ',' column_value= term )+ ')' ( usingClause[attrs] )? ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:194:1: insertStatement returns [UpdateStatement expr] : K_INSERT K_INTO columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) '(' key_alias= term ( ',' column_name= term )+ ')' K_VALUES '(' key= term ( ',' column_value= term )+ ')' ( usingClause[attrs] )? ;
     public final UpdateStatement insertStatement() throws RecognitionException {
         UpdateStatement expr = null;
 
@@ -1027,8 +1027,8 @@ public class CqlParser extends Parser {
 
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:208:5: ( K_INSERT K_INTO columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) '(' key_alias= term ( ',' column_name= term )+ ')' K_VALUES '(' key= term ( ',' column_value= term )+ ')' ( usingClause[attrs] )? )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:208:7: K_INSERT K_INTO columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) '(' key_alias= term ( ',' column_name= term )+ ')' K_VALUES '(' key= term ( ',' column_value= term )+ ')' ( usingClause[attrs] )?
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:208:5: ( K_INSERT K_INTO columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) '(' key_alias= term ( ',' column_name= term )+ ')' K_VALUES '(' key= term ( ',' column_value= term )+ ')' ( usingClause[attrs] )? )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:208:7: K_INSERT K_INTO columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) '(' key_alias= term ( ',' column_name= term )+ ')' K_VALUES '(' key= term ( ',' column_value= term )+ ')' ( usingClause[attrs] )?
             {
 
                       Attributes attrs = new Attributes();
@@ -1054,7 +1054,7 @@ public class CqlParser extends Parser {
 
             state._fsp--;
 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:215:30: ( ',' column_name= term )+
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:215:30: ( ',' column_name= term )+
             int cnt13=0;
             loop13:
             do {
@@ -1068,7 +1068,7 @@ public class CqlParser extends Parser {
 
                 switch (alt13) {
             	case 1 :
-            	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:215:32: ',' column_name= term
+            	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:215:32: ',' column_name= term
             	    {
             	    match(input,82,FOLLOW_82_in_insertStatement795); 
             	    pushFollow(FOLLOW_term_in_insertStatement799);
@@ -1098,7 +1098,7 @@ public class CqlParser extends Parser {
 
             state._fsp--;
 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:217:24: ( ',' column_value= term )+
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:217:24: ( ',' column_value= term )+
             int cnt14=0;
             loop14:
             do {
@@ -1112,7 +1112,7 @@ public class CqlParser extends Parser {
 
                 switch (alt14) {
             	case 1 :
-            	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:217:26: ',' column_value= term
+            	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:217:26: ',' column_value= term
             	    {
             	    match(input,82,FOLLOW_82_in_insertStatement837); 
             	    pushFollow(FOLLOW_term_in_insertStatement841);
@@ -1135,7 +1135,7 @@ public class CqlParser extends Parser {
             } while (true);
 
             match(input,81,FOLLOW_81_in_insertStatement847); 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:218:9: ( usingClause[attrs] )?
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:218:9: ( usingClause[attrs] )?
             int alt15=2;
             int LA15_0 = input.LA(1);
 
@@ -1144,7 +1144,7 @@ public class CqlParser extends Parser {
             }
             switch (alt15) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:218:11: usingClause[attrs]
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:218:11: usingClause[attrs]
                     {
                     pushFollow(FOLLOW_usingClause_in_insertStatement859);
                     usingClause(attrs);
@@ -1176,11 +1176,11 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "usingClause"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:224:1: usingClause[Attributes attrs] : K_USING usingClauseObjective[attrs] ( ( K_AND )? usingClauseObjective[attrs] )* ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:224:1: usingClause[Attributes attrs] : K_USING usingClauseObjective[attrs] ( ( K_AND )? usingClauseObjective[attrs] )* ;
     public final void usingClause(Attributes attrs) throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:225:5: ( K_USING usingClauseObjective[attrs] ( ( K_AND )? usingClauseObjective[attrs] )* )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:225:7: K_USING usingClauseObjective[attrs] ( ( K_AND )? usingClauseObjective[attrs] )*
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:225:5: ( K_USING usingClauseObjective[attrs] ( ( K_AND )? usingClauseObjective[attrs] )* )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:225:7: K_USING usingClauseObjective[attrs] ( ( K_AND )? usingClauseObjective[attrs] )*
             {
             match(input,K_USING,FOLLOW_K_USING_in_usingClause889); 
             pushFollow(FOLLOW_usingClauseObjective_in_usingClause891);
@@ -1188,7 +1188,7 @@ public class CqlParser extends Parser {
 
             state._fsp--;
 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:225:43: ( ( K_AND )? usingClauseObjective[attrs] )*
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:225:43: ( ( K_AND )? usingClauseObjective[attrs] )*
             loop17:
             do {
                 int alt17=2;
@@ -1201,9 +1201,9 @@ public class CqlParser extends Parser {
 
                 switch (alt17) {
             	case 1 :
-            	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:225:45: ( K_AND )? usingClauseObjective[attrs]
+            	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:225:45: ( K_AND )? usingClauseObjective[attrs]
             	    {
-            	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:225:45: ( K_AND )?
+            	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:225:45: ( K_AND )?
             	    int alt16=2;
             	    int LA16_0 = input.LA(1);
 
@@ -1212,7 +1212,7 @@ public class CqlParser extends Parser {
             	    }
             	    switch (alt16) {
             	        case 1 :
-            	            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:225:45: K_AND
+            	            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:225:45: K_AND
             	            {
             	            match(input,K_AND,FOLLOW_K_AND_in_usingClause896); 
 
@@ -1251,11 +1251,11 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "usingClauseDelete"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:228:1: usingClauseDelete[Attributes attrs] : K_USING usingClauseDeleteObjective[attrs] ( ( K_AND )? usingClauseDeleteObjective[attrs] )* ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:228:1: usingClauseDelete[Attributes attrs] : K_USING usingClauseDeleteObjective[attrs] ( ( K_AND )? usingClauseDeleteObjective[attrs] )* ;
     public final void usingClauseDelete(Attributes attrs) throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:229:5: ( K_USING usingClauseDeleteObjective[attrs] ( ( K_AND )? usingClauseDeleteObjective[attrs] )* )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:229:7: K_USING usingClauseDeleteObjective[attrs] ( ( K_AND )? usingClauseDeleteObjective[attrs] )*
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:229:5: ( K_USING usingClauseDeleteObjective[attrs] ( ( K_AND )? usingClauseDeleteObjective[attrs] )* )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:229:7: K_USING usingClauseDeleteObjective[attrs] ( ( K_AND )? usingClauseDeleteObjective[attrs] )*
             {
             match(input,K_USING,FOLLOW_K_USING_in_usingClauseDelete921); 
             pushFollow(FOLLOW_usingClauseDeleteObjective_in_usingClauseDelete923);
@@ -1263,7 +1263,7 @@ public class CqlParser extends Parser {
 
             state._fsp--;
 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:229:49: ( ( K_AND )? usingClauseDeleteObjective[attrs] )*
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:229:49: ( ( K_AND )? usingClauseDeleteObjective[attrs] )*
             loop19:
             do {
                 int alt19=2;
@@ -1276,9 +1276,9 @@ public class CqlParser extends Parser {
 
                 switch (alt19) {
             	case 1 :
-            	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:229:51: ( K_AND )? usingClauseDeleteObjective[attrs]
+            	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:229:51: ( K_AND )? usingClauseDeleteObjective[attrs]
             	    {
-            	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:229:51: ( K_AND )?
+            	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:229:51: ( K_AND )?
             	    int alt18=2;
             	    int LA18_0 = input.LA(1);
 
@@ -1287,7 +1287,7 @@ public class CqlParser extends Parser {
             	    }
             	    switch (alt18) {
             	        case 1 :
-            	            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:229:51: K_AND
+            	            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:229:51: K_AND
             	            {
             	            match(input,K_AND,FOLLOW_K_AND_in_usingClauseDelete928); 
 
@@ -1326,13 +1326,13 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "usingClauseDeleteObjective"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:232:1: usingClauseDeleteObjective[Attributes attrs] : ( K_CONSISTENCY K_LEVEL | K_TIMESTAMP ts= INTEGER );
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:232:1: usingClauseDeleteObjective[Attributes attrs] : ( K_CONSISTENCY K_LEVEL | K_TIMESTAMP ts= INTEGER );
     public final void usingClauseDeleteObjective(Attributes attrs) throws RecognitionException {
         Token ts=null;
         Token K_LEVEL18=null;
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:233:5: ( K_CONSISTENCY K_LEVEL | K_TIMESTAMP ts= INTEGER )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:233:5: ( K_CONSISTENCY K_LEVEL | K_TIMESTAMP ts= INTEGER )
             int alt20=2;
             int LA20_0 = input.LA(1);
 
@@ -1350,7 +1350,7 @@ public class CqlParser extends Parser {
             }
             switch (alt20) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:233:7: K_CONSISTENCY K_LEVEL
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:233:7: K_CONSISTENCY K_LEVEL
                     {
                     match(input,K_CONSISTENCY,FOLLOW_K_CONSISTENCY_in_usingClauseDeleteObjective953); 
                     K_LEVEL18=(Token)match(input,K_LEVEL,FOLLOW_K_LEVEL_in_usingClauseDeleteObjective955); 
@@ -1359,7 +1359,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:234:7: K_TIMESTAMP ts= INTEGER
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:234:7: K_TIMESTAMP ts= INTEGER
                     {
                     match(input,K_TIMESTAMP,FOLLOW_K_TIMESTAMP_in_usingClauseDeleteObjective966); 
                     ts=(Token)match(input,INTEGER,FOLLOW_INTEGER_in_usingClauseDeleteObjective970); 
@@ -1382,12 +1382,12 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "usingClauseObjective"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:237:1: usingClauseObjective[Attributes attrs] : ( usingClauseDeleteObjective[attrs] | K_TTL t= INTEGER );
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:237:1: usingClauseObjective[Attributes attrs] : ( usingClauseDeleteObjective[attrs] | K_TTL t= INTEGER );
     public final void usingClauseObjective(Attributes attrs) throws RecognitionException {
         Token t=null;
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:238:5: ( usingClauseDeleteObjective[attrs] | K_TTL t= INTEGER )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:238:5: ( usingClauseDeleteObjective[attrs] | K_TTL t= INTEGER )
             int alt21=2;
             int LA21_0 = input.LA(1);
 
@@ -1405,7 +1405,7 @@ public class CqlParser extends Parser {
             }
             switch (alt21) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:238:7: usingClauseDeleteObjective[attrs]
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:238:7: usingClauseDeleteObjective[attrs]
                     {
                     pushFollow(FOLLOW_usingClauseDeleteObjective_in_usingClauseObjective990);
                     usingClauseDeleteObjective(attrs);
@@ -1416,7 +1416,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:239:7: K_TTL t= INTEGER
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:239:7: K_TTL t= INTEGER
                     {
                     match(input,K_TTL,FOLLOW_K_TTL_in_usingClauseObjective999); 
                     t=(Token)match(input,INTEGER,FOLLOW_INTEGER_in_usingClauseObjective1003); 
@@ -1439,7 +1439,7 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "batchStatement"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:242:1: batchStatement returns [BatchStatement expr] : K_BEGIN K_BATCH ( usingClause[attrs] )? s1= batchStatementObjective ( ';' )? (sN= batchStatementObjective ( ';' )? )* K_APPLY K_BATCH endStmnt ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:242:1: batchStatement returns [BatchStatement expr] : K_BEGIN K_BATCH ( usingClause[attrs] )? s1= batchStatementObjective ( ';' )? (sN= batchStatementObjective ( ';' )? )* K_APPLY K_BATCH endStmnt ;
     public final BatchStatement batchStatement() throws RecognitionException {
         BatchStatement expr = null;
 
@@ -1449,8 +1449,8 @@ public class CqlParser extends Parser {
 
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:267:5: ( K_BEGIN K_BATCH ( usingClause[attrs] )? s1= batchStatementObjective ( ';' )? (sN= batchStatementObjective ( ';' )? )* K_APPLY K_BATCH endStmnt )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:267:7: K_BEGIN K_BATCH ( usingClause[attrs] )? s1= batchStatementObjective ( ';' )? (sN= batchStatementObjective ( ';' )? )* K_APPLY K_BATCH endStmnt
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:267:5: ( K_BEGIN K_BATCH ( usingClause[attrs] )? s1= batchStatementObjective ( ';' )? (sN= batchStatementObjective ( ';' )? )* K_APPLY K_BATCH endStmnt )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:267:7: K_BEGIN K_BATCH ( usingClause[attrs] )? s1= batchStatementObjective ( ';' )? (sN= batchStatementObjective ( ';' )? )* K_APPLY K_BATCH endStmnt
             {
 
                       Attributes attrs = new Attributes();
@@ -1460,7 +1460,7 @@ public class CqlParser extends Parser {
                   
             match(input,K_BEGIN,FOLLOW_K_BEGIN_in_batchStatement1043); 
             match(input,K_BATCH,FOLLOW_K_BATCH_in_batchStatement1045); 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:273:23: ( usingClause[attrs] )?
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:273:23: ( usingClause[attrs] )?
             int alt22=2;
             int LA22_0 = input.LA(1);
 
@@ -1469,7 +1469,7 @@ public class CqlParser extends Parser {
             }
             switch (alt22) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:273:25: usingClause[attrs]
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:273:25: usingClause[attrs]
                     {
                     pushFollow(FOLLOW_usingClause_in_batchStatement1049);
                     usingClause(attrs);
@@ -1487,7 +1487,7 @@ public class CqlParser extends Parser {
 
             state._fsp--;
 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:274:38: ( ';' )?
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:274:38: ( ';' )?
             int alt23=2;
             int LA23_0 = input.LA(1);
 
@@ -1496,7 +1496,7 @@ public class CqlParser extends Parser {
             }
             switch (alt23) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:274:38: ';'
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:274:38: ';'
                     {
                     match(input,84,FOLLOW_84_in_batchStatement1069); 
 
@@ -1506,7 +1506,7 @@ public class CqlParser extends Parser {
             }
 
              statements.add(s1); 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:274:67: (sN= batchStatementObjective ( ';' )? )*
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:274:67: (sN= batchStatementObjective ( ';' )? )*
             loop25:
             do {
                 int alt25=2;
@@ -1519,14 +1519,14 @@ public class CqlParser extends Parser {
 
                 switch (alt25) {
             	case 1 :
-            	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:274:69: sN= batchStatementObjective ( ';' )?
+            	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:274:69: sN= batchStatementObjective ( ';' )?
             	    {
             	    pushFollow(FOLLOW_batchStatementObjective_in_batchStatement1078);
             	    sN=batchStatementObjective();
 
             	    state._fsp--;
 
-            	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:274:96: ( ';' )?
+            	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:274:96: ( ';' )?
             	    int alt24=2;
             	    int LA24_0 = input.LA(1);
 
@@ -1535,7 +1535,7 @@ public class CqlParser extends Parser {
             	    }
             	    switch (alt24) {
             	        case 1 :
-            	            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:274:96: ';'
+            	            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:274:96: ';'
             	            {
             	            match(input,84,FOLLOW_84_in_batchStatement1080); 
 
@@ -1580,7 +1580,7 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "batchStatementObjective"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:281:1: batchStatementObjective returns [AbstractModification statement] : (i= insertStatement | u= updateStatement | d= deleteStatement );
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:281:1: batchStatementObjective returns [AbstractModification statement] : (i= insertStatement | u= updateStatement | d= deleteStatement );
     public final AbstractModification batchStatementObjective() throws RecognitionException {
         AbstractModification statement = null;
 
@@ -1592,7 +1592,7 @@ public class CqlParser extends Parser {
 
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:282:5: (i= insertStatement | u= updateStatement | d= deleteStatement )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:282:5: (i= insertStatement | u= updateStatement | d= deleteStatement )
             int alt26=3;
             switch ( input.LA(1) ) {
             case K_INSERT:
@@ -1619,7 +1619,7 @@ public class CqlParser extends Parser {
 
             switch (alt26) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:282:7: i= insertStatement
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:282:7: i= insertStatement
                     {
                     pushFollow(FOLLOW_insertStatement_in_batchStatementObjective1129);
                     i=insertStatement();
@@ -1631,7 +1631,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:283:7: u= updateStatement
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:283:7: u= updateStatement
                     {
                     pushFollow(FOLLOW_updateStatement_in_batchStatementObjective1142);
                     u=updateStatement();
@@ -1643,7 +1643,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:284:7: d= deleteStatement
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:284:7: d= deleteStatement
                     {
                     pushFollow(FOLLOW_deleteStatement_in_batchStatementObjective1155);
                     d=deleteStatement();
@@ -1669,7 +1669,7 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "updateStatement"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:287:1: updateStatement returns [UpdateStatement expr] : K_UPDATE columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) ( usingClause[attrs] )? K_SET termPairWithOperation[columns] ( ',' termPairWithOperation[columns] )* K_WHERE (key_alias= term ( '=' key= term | K_IN '(' keys= termList ')' ) ) ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:287:1: updateStatement returns [UpdateStatement expr] : K_UPDATE columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) ( usingClause[attrs] )? K_SET termPairWithOperation[columns] ( ',' termPairWithOperation[columns] )* K_WHERE (key_alias= term ( '=' key= term | K_IN '(' keys= termList ')' ) ) ;
     public final UpdateStatement updateStatement() throws RecognitionException {
         UpdateStatement expr = null;
 
@@ -1682,8 +1682,8 @@ public class CqlParser extends Parser {
 
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:301:5: ( K_UPDATE columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) ( usingClause[attrs] )? K_SET termPairWithOperation[columns] ( ',' termPairWithOperation[columns] )* K_WHERE (key_alias= term ( '=' key= term | K_IN '(' keys= termList ')' ) ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:301:7: K_UPDATE columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) ( usingClause[attrs] )? K_SET termPairWithOperation[columns] ( ',' termPairWithOperation[columns] )* K_WHERE (key_alias= term ( '=' key= term | K_IN '(' keys= termList ')' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:301:5: ( K_UPDATE columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) ( usingClause[attrs] )? K_SET termPairWithOperation[columns] ( ',' termPairWithOperation[columns] )* K_WHERE (key_alias= term ( '=' key= term | K_IN '(' keys= termList ')' ) ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:301:7: K_UPDATE columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) ( usingClause[attrs] )? K_SET termPairWithOperation[columns] ( ',' termPairWithOperation[columns] )* K_WHERE (key_alias= term ( '=' key= term | K_IN '(' keys= termList ')' ) )
             {
 
                       Attributes attrs = new Attributes();
@@ -1701,7 +1701,7 @@ public class CqlParser extends Parser {
                 throw mse;
             }
 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:307:11: ( usingClause[attrs] )?
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:307:11: ( usingClause[attrs] )?
             int alt27=2;
             int LA27_0 = input.LA(1);
 
@@ -1710,7 +1710,7 @@ public class CqlParser extends Parser {
             }
             switch (alt27) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:307:13: usingClause[attrs]
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:307:13: usingClause[attrs]
                     {
                     pushFollow(FOLLOW_usingClause_in_updateStatement1219);
                     usingClause(attrs);
@@ -1729,7 +1729,7 @@ public class CqlParser extends Parser {
 
             state._fsp--;
 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:308:48: ( ',' termPairWithOperation[columns] )*
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:308:48: ( ',' termPairWithOperation[columns] )*
             loop28:
             do {
                 int alt28=2;
@@ -1742,7 +1742,7 @@ public class CqlParser extends Parser {
 
                 switch (alt28) {
             	case 1 :
-            	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:308:49: ',' termPairWithOperation[columns]
+            	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:308:49: ',' termPairWithOperation[columns]
             	    {
             	    match(input,82,FOLLOW_82_in_updateStatement1241); 
             	    pushFollow(FOLLOW_termPairWithOperation_in_updateStatement1243);
@@ -1760,15 +1760,15 @@ public class CqlParser extends Parser {
             } while (true);
 
             match(input,K_WHERE,FOLLOW_K_WHERE_in_updateStatement1258); 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:309:19: (key_alias= term ( '=' key= term | K_IN '(' keys= termList ')' ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:309:21: key_alias= term ( '=' key= term | K_IN '(' keys= termList ')' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:309:19: (key_alias= term ( '=' key= term | K_IN '(' keys= termList ')' ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:309:21: key_alias= term ( '=' key= term | K_IN '(' keys= termList ')' )
             {
             pushFollow(FOLLOW_term_in_updateStatement1264);
             key_alias=term();
 
             state._fsp--;
 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:309:36: ( '=' key= term | K_IN '(' keys= termList ')' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:309:36: ( '=' key= term | K_IN '(' keys= termList ')' )
             int alt29=2;
             int LA29_0 = input.LA(1);
 
@@ -1786,7 +1786,7 @@ public class CqlParser extends Parser {
             }
             switch (alt29) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:309:37: '=' key= term
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:309:37: '=' key= term
                     {
                     match(input,85,FOLLOW_85_in_updateStatement1267); 
                     pushFollow(FOLLOW_term_in_updateStatement1271);
@@ -1799,7 +1799,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:311:37: K_IN '(' keys= termList ')'
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:311:37: K_IN '(' keys= termList ')'
                     {
                     match(input,K_IN,FOLLOW_K_IN_in_updateStatement1349); 
                     match(input,80,FOLLOW_80_in_updateStatement1351); 
@@ -1838,7 +1838,7 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "deleteStatement"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:317:1: deleteStatement returns [DeleteStatement expr] : K_DELETE (cols= termList )? K_FROM columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) ( usingClauseDelete[attrs] )? K_WHERE (key_alias= term ( '=' key= term | K_IN '(' keys= termList ')' ) )? ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:317:1: deleteStatement returns [DeleteStatement expr] : K_DELETE (cols= termList )? K_FROM columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) ( usingClauseDelete[attrs] )? K_WHERE (key_alias= term ( '=' key= term | K_IN '(' keys= termList ')' ) )? ;
     public final DeleteStatement deleteStatement() throws RecognitionException {
         DeleteStatement expr = null;
 
@@ -1853,8 +1853,8 @@ public class CqlParser extends Parser {
 
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:328:5: ( K_DELETE (cols= termList )? K_FROM columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) ( usingClauseDelete[attrs] )? K_WHERE (key_alias= term ( '=' key= term | K_IN '(' keys= termList ')' ) )? )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:328:7: K_DELETE (cols= termList )? K_FROM columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) ( usingClauseDelete[attrs] )? K_WHERE (key_alias= term ( '=' key= term | K_IN '(' keys= termList ')' ) )?
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:328:5: ( K_DELETE (cols= termList )? K_FROM columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) ( usingClauseDelete[attrs] )? K_WHERE (key_alias= term ( '=' key= term | K_IN '(' keys= termList ')' ) )? )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:328:7: K_DELETE (cols= termList )? K_FROM columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) ( usingClauseDelete[attrs] )? K_WHERE (key_alias= term ( '=' key= term | K_IN '(' keys= termList ')' ) )?
             {
 
                       Attributes attrs = new Attributes();
@@ -1862,7 +1862,7 @@ public class CqlParser extends Parser {
                       List<Term> columnsList = Collections.emptyList();
                   
             match(input,K_DELETE,FOLLOW_K_DELETE_in_deleteStatement1401); 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:334:11: (cols= termList )?
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:334:11: (cols= termList )?
             int alt30=2;
             int LA30_0 = input.LA(1);
 
@@ -1871,7 +1871,7 @@ public class CqlParser extends Parser {
             }
             switch (alt30) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:334:13: cols= termList
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:334:13: cols= termList
                     {
                     pushFollow(FOLLOW_termList_in_deleteStatement1417);
                     cols=termList();
@@ -1896,7 +1896,7 @@ public class CqlParser extends Parser {
                 throw mse;
             }
 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:336:11: ( usingClauseDelete[attrs] )?
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:336:11: ( usingClauseDelete[attrs] )?
             int alt31=2;
             int LA31_0 = input.LA(1);
 
@@ -1905,7 +1905,7 @@ public class CqlParser extends Parser {
             }
             switch (alt31) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:336:13: usingClauseDelete[attrs]
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:336:13: usingClauseDelete[attrs]
                     {
                     pushFollow(FOLLOW_usingClauseDelete_in_deleteStatement1463);
                     usingClauseDelete(attrs);
@@ -1919,7 +1919,7 @@ public class CqlParser extends Parser {
             }
 
             match(input,K_WHERE,FOLLOW_K_WHERE_in_deleteStatement1479); 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:337:19: (key_alias= term ( '=' key= term | K_IN '(' keys= termList ')' ) )?
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:337:19: (key_alias= term ( '=' key= term | K_IN '(' keys= termList ')' ) )?
             int alt33=2;
             int LA33_0 = input.LA(1);
 
@@ -1928,14 +1928,14 @@ public class CqlParser extends Parser {
             }
             switch (alt33) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:337:21: key_alias= term ( '=' key= term | K_IN '(' keys= termList ')' )
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:337:21: key_alias= term ( '=' key= term | K_IN '(' keys= termList ')' )
                     {
                     pushFollow(FOLLOW_term_in_deleteStatement1485);
                     key_alias=term();
 
                     state._fsp--;
 
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:337:36: ( '=' key= term | K_IN '(' keys= termList ')' )
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:337:36: ( '=' key= term | K_IN '(' keys= termList ')' )
                     int alt32=2;
                     int LA32_0 = input.LA(1);
 
@@ -1953,7 +1953,7 @@ public class CqlParser extends Parser {
                     }
                     switch (alt32) {
                         case 1 :
-                            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:337:37: '=' key= term
+                            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:337:37: '=' key= term
                             {
                             match(input,85,FOLLOW_85_in_deleteStatement1488); 
                             pushFollow(FOLLOW_term_in_deleteStatement1492);
@@ -1966,7 +1966,7 @@ public class CqlParser extends Parser {
                             }
                             break;
                         case 2 :
-                            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:338:38: K_IN '(' keys= termList ')'
+                            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:338:38: K_IN '(' keys= termList ')'
                             {
                             match(input,K_IN,FOLLOW_K_IN_in_deleteStatement1543); 
                             match(input,80,FOLLOW_80_in_deleteStatement1545); 
@@ -2008,7 +2008,7 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "createKeyspaceStatement"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:347:1: createKeyspaceStatement returns [CreateKeyspaceStatement expr] : K_CREATE K_KEYSPACE keyspace= ( IDENT | STRING_LITERAL | INTEGER ) K_WITH a1= ( COMPIDENT | IDENT ) '=' v1= ( STRING_LITERAL | INTEGER | IDENT ) ( K_AND aN= ( COMPIDENT | IDENT ) '=' vN= ( STRING_LITERAL | INTEGER | IDENT ) )* endStmnt ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:347:1: createKeyspaceStatement returns [CreateKeyspaceStatement expr] : K_CREATE K_KEYSPACE keyspace= ( IDENT | STRING_LITERAL | INTEGER ) K_WITH a1= ( COMPIDENT | IDENT ) '=' v1= ( STRING_LITERAL | INTEGER | IDENT ) ( K_AND aN= ( COMPIDENT | IDENT ) '=' vN= ( STRING_LITERAL | INTEGER | IDENT ) )* endStmnt ;
     public final CreateKeyspaceStatement createKeyspaceStatement() throws RecognitionException {
         CreateKeyspaceStatement expr = null;
 
@@ -2019,8 +2019,8 @@ public class CqlParser extends Parser {
         Token vN=null;
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:349:5: ( K_CREATE K_KEYSPACE keyspace= ( IDENT | STRING_LITERAL | INTEGER ) K_WITH a1= ( COMPIDENT | IDENT ) '=' v1= ( STRING_LITERAL | INTEGER | IDENT ) ( K_AND aN= ( COMPIDENT | IDENT ) '=' vN= ( STRING_LITERAL | INTEGER | IDENT ) )* endStmnt )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:349:7: K_CREATE K_KEYSPACE keyspace= ( IDENT | STRING_LITERAL | INTEGER ) K_WITH a1= ( COMPIDENT | IDENT ) '=' v1= ( STRING_LITERAL | INTEGER | IDENT ) ( K_AND aN= ( COMPIDENT | IDENT ) '=' vN= ( STRING_LITERAL | INTEGER | IDENT ) )* endStmnt
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:349:5: ( K_CREATE K_KEYSPACE keyspace= ( IDENT | STRING_LITERAL | INTEGER ) K_WITH a1= ( COMPIDENT | IDENT ) '=' v1= ( STRING_LITERAL | INTEGER | IDENT ) ( K_AND aN= ( COMPIDENT | IDENT ) '=' vN= ( STRING_LITERAL | INTEGER | IDENT ) )* endStmnt )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:349:7: K_CREATE K_KEYSPACE keyspace= ( IDENT | STRING_LITERAL | INTEGER ) K_WITH a1= ( COMPIDENT | IDENT ) '=' v1= ( STRING_LITERAL | INTEGER | IDENT ) ( K_AND aN= ( COMPIDENT | IDENT ) '=' vN= ( STRING_LITERAL | INTEGER | IDENT ) )* endStmnt
             {
 
                       Map<String, String> attrs = new HashMap<String, String>();
@@ -2060,7 +2060,7 @@ public class CqlParser extends Parser {
             }
 
              attrs.put((a1!=null?a1.getText():null), (v1!=null?v1.getText():null)); 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:354:11: ( K_AND aN= ( COMPIDENT | IDENT ) '=' vN= ( STRING_LITERAL | INTEGER | IDENT ) )*
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:354:11: ( K_AND aN= ( COMPIDENT | IDENT ) '=' vN= ( STRING_LITERAL | INTEGER | IDENT ) )*
             loop34:
             do {
                 int alt34=2;
@@ -2073,7 +2073,7 @@ public class CqlParser extends Parser {
 
                 switch (alt34) {
             	case 1 :
-            	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:354:13: K_AND aN= ( COMPIDENT | IDENT ) '=' vN= ( STRING_LITERAL | INTEGER | IDENT )
+            	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:354:13: K_AND aN= ( COMPIDENT | IDENT ) '=' vN= ( STRING_LITERAL | INTEGER | IDENT )
             	    {
             	    match(input,K_AND,FOLLOW_K_AND_in_createKeyspaceStatement1693); 
             	    aN=(Token)input.LT(1);
@@ -2131,7 +2131,7 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "createColumnFamilyStatement"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:361:1: createColumnFamilyStatement returns [CreateColumnFamilyStatement expr] : K_CREATE K_COLUMNFAMILY name= ( IDENT | STRING_LITERAL | INTEGER ) ( '(' createCfamColumns[expr] ( ',' createCfamColumns[expr] )* ')' )? ( K_WITH prop1= IDENT '=' arg1= createCfamKeywordArgument ( K_AND propN= IDENT '=' argN= createCfamKeywordArgument )* )? endStmnt ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:361:1: createColumnFamilyStatement returns [CreateColumnFamilyStatement expr] : K_CREATE K_COLUMNFAMILY name= ( IDENT | STRING_LITERAL | INTEGER ) ( '(' createCfamColumns[expr] ( ',' createCfamColumns[expr] )* ')' )? ( K_WITH prop1= IDENT '=' arg1= createCfamKeywordArgument ( K_AND propN= IDENT '=' argN= createCfamKeywordArgument )* )? endStmnt ;
     public final CreateColumnFamilyStatement createColumnFamilyStatement() throws RecognitionException {
         CreateColumnFamilyStatement expr = null;
 
@@ -2144,8 +2144,8 @@ public class CqlParser extends Parser {
 
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:369:5: ( K_CREATE K_COLUMNFAMILY name= ( IDENT | STRING_LITERAL | INTEGER ) ( '(' createCfamColumns[expr] ( ',' createCfamColumns[expr] )* ')' )? ( K_WITH prop1= IDENT '=' arg1= createCfamKeywordArgument ( K_AND propN= IDENT '=' argN= createCfamKeywordArgument )* )? endStmnt )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:369:7: K_CREATE K_COLUMNFAMILY name= ( IDENT | STRING_LITERAL | INTEGER ) ( '(' createCfamColumns[expr] ( ',' createCfamColumns[expr] )* ')' )? ( K_WITH prop1= IDENT '=' arg1= createCfamKeywordArgument ( K_AND propN= IDENT '=' argN= createCfamKeywordArgument )* )? endStmnt
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:369:5: ( K_CREATE K_COLUMNFAMILY name= ( IDENT | STRING_LITERAL | INTEGER ) ( '(' createCfamColumns[expr] ( ',' createCfamColumns[expr] )* ')' )? ( K_WITH prop1= IDENT '=' arg1= createCfamKeywordArgument ( K_AND propN= IDENT '=' argN= createCfamKeywordArgument )* )? endStmnt )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:369:7: K_CREATE K_COLUMNFAMILY name= ( IDENT | STRING_LITERAL | INTEGER ) ( '(' createCfamColumns[expr] ( ',' createCfamColumns[expr] )* ')' )? ( K_WITH prop1= IDENT '=' arg1= createCfamKeywordArgument ( K_AND propN= IDENT '=' argN= createCfamKeywordArgument )* )? endStmnt
             {
             match(input,K_CREATE,FOLLOW_K_CREATE_in_createColumnFamilyStatement1775); 
             match(input,K_COLUMNFAMILY,FOLLOW_K_COLUMNFAMILY_in_createColumnFamilyStatement1777); 
@@ -2160,7 +2160,7 @@ public class CqlParser extends Parser {
             }
 
              expr = new CreateColumnFamilyStatement((name!=null?name.getText():null)); 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:370:7: ( '(' createCfamColumns[expr] ( ',' createCfamColumns[expr] )* ')' )?
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:370:7: ( '(' createCfamColumns[expr] ( ',' createCfamColumns[expr] )* ')' )?
             int alt36=2;
             int LA36_0 = input.LA(1);
 
@@ -2169,7 +2169,7 @@ public class CqlParser extends Parser {
             }
             switch (alt36) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:370:9: '(' createCfamColumns[expr] ( ',' createCfamColumns[expr] )* ')'
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:370:9: '(' createCfamColumns[expr] ( ',' createCfamColumns[expr] )* ')'
                     {
                     match(input,80,FOLLOW_80_in_createColumnFamilyStatement1805); 
                     pushFollow(FOLLOW_createCfamColumns_in_createColumnFamilyStatement1807);
@@ -2177,7 +2177,7 @@ public class CqlParser extends Parser {
 
                     state._fsp--;
 
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:370:37: ( ',' createCfamColumns[expr] )*
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:370:37: ( ',' createCfamColumns[expr] )*
                     loop35:
                     do {
                         int alt35=2;
@@ -2190,7 +2190,7 @@ public class CqlParser extends Parser {
 
                         switch (alt35) {
                     	case 1 :
-                    	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:370:39: ',' createCfamColumns[expr]
+                    	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:370:39: ',' createCfamColumns[expr]
                     	    {
                     	    match(input,82,FOLLOW_82_in_createColumnFamilyStatement1812); 
                     	    pushFollow(FOLLOW_createCfamColumns_in_createColumnFamilyStatement1814);
@@ -2214,7 +2214,7 @@ public class CqlParser extends Parser {
 
             }
 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:371:7: ( K_WITH prop1= IDENT '=' arg1= createCfamKeywordArgument ( K_AND propN= IDENT '=' argN= createCfamKeywordArgument )* )?
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:371:7: ( K_WITH prop1= IDENT '=' arg1= createCfamKeywordArgument ( K_AND propN= IDENT '=' argN= createCfamKeywordArgument )* )?
             int alt38=2;
             int LA38_0 = input.LA(1);
 
@@ -2223,7 +2223,7 @@ public class CqlParser extends Parser {
             }
             switch (alt38) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:371:9: K_WITH prop1= IDENT '=' arg1= createCfamKeywordArgument ( K_AND propN= IDENT '=' argN= createCfamKeywordArgument )*
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:371:9: K_WITH prop1= IDENT '=' arg1= createCfamKeywordArgument ( K_AND propN= IDENT '=' argN= createCfamKeywordArgument )*
                     {
                     match(input,K_WITH,FOLLOW_K_WITH_in_createColumnFamilyStatement1833); 
                     prop1=(Token)match(input,IDENT,FOLLOW_IDENT_in_createColumnFamilyStatement1837); 
@@ -2234,7 +2234,7 @@ public class CqlParser extends Parser {
                     state._fsp--;
 
                      expr.addProperty((prop1!=null?prop1.getText():null), arg1); 
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:372:11: ( K_AND propN= IDENT '=' argN= createCfamKeywordArgument )*
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:372:11: ( K_AND propN= IDENT '=' argN= createCfamKeywordArgument )*
                     loop37:
                     do {
                         int alt37=2;
@@ -2247,7 +2247,7 @@ public class CqlParser extends Parser {
 
                         switch (alt37) {
                     	case 1 :
-                    	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:372:13: K_AND propN= IDENT '=' argN= createCfamKeywordArgument
+                    	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:372:13: K_AND propN= IDENT '=' argN= createCfamKeywordArgument
                     	    {
                     	    match(input,K_AND,FOLLOW_K_AND_in_createColumnFamilyStatement1859); 
                     	    propN=(Token)match(input,IDENT,FOLLOW_IDENT_in_createColumnFamilyStatement1863); 
@@ -2294,7 +2294,7 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "createCfamColumns"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:377:1: createCfamColumns[CreateColumnFamilyStatement expr] : (n= term v= createCfamColumnValidator | k= term v= createCfamColumnValidator K_PRIMARY K_KEY );
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:377:1: createCfamColumns[CreateColumnFamilyStatement expr] : (n= term v= createCfamColumnValidator | k= term v= createCfamColumnValidator K_PRIMARY K_KEY );
     public final void createCfamColumns(CreateColumnFamilyStatement expr) throws RecognitionException {
         Term n = null;
 
@@ -2304,12 +2304,12 @@ public class CqlParser extends Parser {
 
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:378:5: (n= term v= createCfamColumnValidator | k= term v= createCfamColumnValidator K_PRIMARY K_KEY )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:378:5: (n= term v= createCfamColumnValidator | k= term v= createCfamColumnValidator K_PRIMARY K_KEY )
             int alt39=2;
             alt39 = dfa39.predict(input);
             switch (alt39) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:378:7: n= term v= createCfamColumnValidator
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:378:7: n= term v= createCfamColumnValidator
                     {
                     pushFollow(FOLLOW_term_in_createCfamColumns1911);
                     n=term();
@@ -2326,7 +2326,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:379:7: k= term v= createCfamColumnValidator K_PRIMARY K_KEY
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:379:7: k= term v= createCfamColumnValidator K_PRIMARY K_KEY
                     {
                     pushFollow(FOLLOW_term_in_createCfamColumns1927);
                     k=term();
@@ -2359,7 +2359,7 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "createCfamColumnValidator"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:382:1: createCfamColumnValidator returns [String validator] : ( comparatorType | STRING_LITERAL );
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:382:1: createCfamColumnValidator returns [String validator] : ( comparatorType | STRING_LITERAL );
     public final String createCfamColumnValidator() throws RecognitionException {
         String validator = null;
 
@@ -2368,7 +2368,7 @@ public class CqlParser extends Parser {
 
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:383:5: ( comparatorType | STRING_LITERAL )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:383:5: ( comparatorType | STRING_LITERAL )
             int alt40=2;
             int LA40_0 = input.LA(1);
 
@@ -2386,7 +2386,7 @@ public class CqlParser extends Parser {
             }
             switch (alt40) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:383:7: comparatorType
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:383:7: comparatorType
                     {
                     pushFollow(FOLLOW_comparatorType_in_createCfamColumnValidator1958);
                     comparatorType19=comparatorType();
@@ -2398,7 +2398,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:384:7: STRING_LITERAL
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:384:7: STRING_LITERAL
                     {
                     STRING_LITERAL20=(Token)match(input,STRING_LITERAL,FOLLOW_STRING_LITERAL_in_createCfamColumnValidator1968); 
                      validator = (STRING_LITERAL20!=null?STRING_LITERAL20.getText():null); 
@@ -2420,7 +2420,7 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "createCfamKeywordArgument"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:387:1: createCfamKeywordArgument returns [String arg] : ( comparatorType | value= ( STRING_LITERAL | IDENT | INTEGER | FLOAT ) );
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:387:1: createCfamKeywordArgument returns [String arg] : ( comparatorType | value= ( STRING_LITERAL | IDENT | INTEGER | FLOAT ) );
     public final String createCfamKeywordArgument() throws RecognitionException {
         String arg = null;
 
@@ -2429,7 +2429,7 @@ public class CqlParser extends Parser {
 
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:388:5: ( comparatorType | value= ( STRING_LITERAL | IDENT | INTEGER | FLOAT ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:388:5: ( comparatorType | value= ( STRING_LITERAL | IDENT | INTEGER | FLOAT ) )
             int alt41=2;
             int LA41_0 = input.LA(1);
 
@@ -2447,7 +2447,7 @@ public class CqlParser extends Parser {
             }
             switch (alt41) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:388:7: comparatorType
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:388:7: comparatorType
                     {
                     pushFollow(FOLLOW_comparatorType_in_createCfamKeywordArgument1991);
                     comparatorType21=comparatorType();
@@ -2459,7 +2459,7 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:389:7: value= ( STRING_LITERAL | IDENT | INTEGER | FLOAT )
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:389:7: value= ( STRING_LITERAL | IDENT | INTEGER | FLOAT )
                     {
                     value=(Token)input.LT(1);
                     if ( input.LA(1)==IDENT||(input.LA(1)>=STRING_LITERAL && input.LA(1)<=INTEGER)||input.LA(1)==FLOAT ) {
@@ -2490,7 +2490,7 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "createIndexStatement"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:392:1: createIndexStatement returns [CreateIndexStatement expr] : K_CREATE K_INDEX (idxName= IDENT )? K_ON cf= ( IDENT | STRING_LITERAL | INTEGER ) '(' columnName= term ')' endStmnt ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:392:1: createIndexStatement returns [CreateIndexStatement expr] : K_CREATE K_INDEX (idxName= IDENT )? K_ON cf= ( IDENT | STRING_LITERAL | INTEGER ) '(' columnName= term ')' endStmnt ;
     public final CreateIndexStatement createIndexStatement() throws RecognitionException {
         CreateIndexStatement expr = null;
 
@@ -2500,12 +2500,12 @@ public class CqlParser extends Parser {
 
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:394:5: ( K_CREATE K_INDEX (idxName= IDENT )? K_ON cf= ( IDENT | STRING_LITERAL | INTEGER ) '(' columnName= term ')' endStmnt )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:394:7: K_CREATE K_INDEX (idxName= IDENT )? K_ON cf= ( IDENT | STRING_LITERAL | INTEGER ) '(' columnName= term ')' endStmnt
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:394:5: ( K_CREATE K_INDEX (idxName= IDENT )? K_ON cf= ( IDENT | STRING_LITERAL | INTEGER ) '(' columnName= term ')' endStmnt )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:394:7: K_CREATE K_INDEX (idxName= IDENT )? K_ON cf= ( IDENT | STRING_LITERAL | INTEGER ) '(' columnName= term ')' endStmnt
             {
             match(input,K_CREATE,FOLLOW_K_CREATE_in_createIndexStatement2044); 
             match(input,K_INDEX,FOLLOW_K_INDEX_in_createIndexStatement2046); 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:394:24: (idxName= IDENT )?
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:394:24: (idxName= IDENT )?
             int alt42=2;
             int LA42_0 = input.LA(1);
 
@@ -2514,7 +2514,7 @@ public class CqlParser extends Parser {
             }
             switch (alt42) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:394:25: idxName= IDENT
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:394:25: idxName= IDENT
                     {
                     idxName=(Token)match(input,IDENT,FOLLOW_IDENT_in_createIndexStatement2051); 
 
@@ -2563,15 +2563,15 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "dropIndexStatement"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:397:1: dropIndexStatement returns [DropIndexStatement expr] : K_DROP K_INDEX index= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:397:1: dropIndexStatement returns [DropIndexStatement expr] : K_DROP K_INDEX index= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt ;
     public final DropIndexStatement dropIndexStatement() throws RecognitionException {
         DropIndexStatement expr = null;
 
         Token index=null;
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:402:5: ( K_DROP K_INDEX index= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:403:7: K_DROP K_INDEX index= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:402:5: ( K_DROP K_INDEX index= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:403:7: K_DROP K_INDEX index= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt
             {
             match(input,K_DROP,FOLLOW_K_DROP_in_dropIndexStatement2117); 
             match(input,K_INDEX,FOLLOW_K_INDEX_in_dropIndexStatement2119); 
@@ -2607,15 +2607,15 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "dropKeyspaceStatement"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:407:1: dropKeyspaceStatement returns [String ksp] : K_DROP K_KEYSPACE name= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:407:1: dropKeyspaceStatement returns [String ksp] : K_DROP K_KEYSPACE name= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt ;
     public final String dropKeyspaceStatement() throws RecognitionException {
         String ksp = null;
 
         Token name=null;
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:409:5: ( K_DROP K_KEYSPACE name= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:409:7: K_DROP K_KEYSPACE name= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:409:5: ( K_DROP K_KEYSPACE name= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:409:7: K_DROP K_KEYSPACE name= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt
             {
             match(input,K_DROP,FOLLOW_K_DROP_in_dropKeyspaceStatement2168); 
             match(input,K_KEYSPACE,FOLLOW_K_KEYSPACE_in_dropKeyspaceStatement2170); 
@@ -2651,7 +2651,7 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "alterTableStatement"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:413:1: alterTableStatement returns [AlterTableStatement expr] : K_ALTER K_COLUMNFAMILY name= ( IDENT | STRING_LITERAL | INTEGER ) ( K_ALTER (col= ( IDENT | STRING_LITERAL | INTEGER ) ) K_TYPE alterValidator= comparatorType | K_ADD (col= ( IDENT | STRING_LITERAL | INTEGER ) ) addValidator= comparatorType | K_DROP (col= ( IDENT | STRING_LITERAL | INTEGER ) ) ) endStmnt ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:413:1: alterTableStatement returns [AlterTableStatement expr] : K_ALTER K_COLUMNFAMILY name= ( IDENT | STRING_LITERAL | INTEGER ) ( K_ALTER (col= ( IDENT | STRING_LITERAL | INTEGER ) ) K_TYPE alterValidator= comparatorType | K_ADD (col= ( IDENT | STRING_LITERAL | INTEGER ) ) addValidator= comparatorType | K_DROP (col= ( IDENT | STRING_LITERAL | INTEGER ) ) ) endStmnt ;
     public final AlterTableStatement alterTableStatement() throws RecognitionException {
         AlterTableStatement expr = null;
 
@@ -2663,8 +2663,8 @@ public class CqlParser extends Parser {
 
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:414:5: ( K_ALTER K_COLUMNFAMILY name= ( IDENT | STRING_LITERAL | INTEGER ) ( K_ALTER (col= ( IDENT | STRING_LITERAL | INTEGER ) ) K_TYPE alterValidator= comparatorType | K_ADD (col= ( IDENT | STRING_LITERAL | INTEGER ) ) addValidator= comparatorType | K_DROP (col= ( IDENT | STRING_LITERAL | INTEGER ) ) ) endStmnt )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:415:5: K_ALTER K_COLUMNFAMILY name= ( IDENT | STRING_LITERAL | INTEGER ) ( K_ALTER (col= ( IDENT | STRING_LITERAL | INTEGER ) ) K_TYPE alterValidator= comparatorType | K_ADD (col= ( IDENT | STRING_LITERAL | INTEGER ) ) addValidator= comparatorType | K_DROP (col= ( IDENT | STRING_LITERAL | INTEGER ) ) ) endStmnt
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:414:5: ( K_ALTER K_COLUMNFAMILY name= ( IDENT | STRING_LITERAL | INTEGER ) ( K_ALTER (col= ( IDENT | STRING_LITERAL | INTEGER ) ) K_TYPE alterValidator= comparatorType | K_ADD (col= ( IDENT | STRING_LITERAL | INTEGER ) ) addValidator= comparatorType | K_DROP (col= ( IDENT | STRING_LITERAL | INTEGER ) ) ) endStmnt )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:415:5: K_ALTER K_COLUMNFAMILY name= ( IDENT | STRING_LITERAL | INTEGER ) ( K_ALTER (col= ( IDENT | STRING_LITERAL | INTEGER ) ) K_TYPE alterValidator= comparatorType | K_ADD (col= ( IDENT | STRING_LITERAL | INTEGER ) ) addValidator= comparatorType | K_DROP (col= ( IDENT | STRING_LITERAL | INTEGER ) ) ) endStmnt
             {
 
                     OperationType type = null;
@@ -2683,7 +2683,7 @@ public class CqlParser extends Parser {
             }
 
              columnFamily = (name!=null?name.getText():null); 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:420:11: ( K_ALTER (col= ( IDENT | STRING_LITERAL | INTEGER ) ) K_TYPE alterValidator= comparatorType | K_ADD (col= ( IDENT | STRING_LITERAL | INTEGER ) ) addValidator= comparatorType | K_DROP (col= ( IDENT | STRING_LITERAL | INTEGER ) ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:420:11: ( K_ALTER (col= ( IDENT | STRING_LITERAL | INTEGER ) ) K_TYPE alterValidator= comparatorType | K_ADD (col= ( IDENT | STRING_LITERAL | INTEGER ) ) addValidator= comparatorType | K_DROP (col= ( IDENT | STRING_LITERAL | INTEGER ) ) )
             int alt43=3;
             switch ( input.LA(1) ) {
             case K_ALTER:
@@ -2710,12 +2710,12 @@ public class CqlParser extends Parser {
 
             switch (alt43) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:420:13: K_ALTER (col= ( IDENT | STRING_LITERAL | INTEGER ) ) K_TYPE alterValidator= comparatorType
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:420:13: K_ALTER (col= ( IDENT | STRING_LITERAL | INTEGER ) ) K_TYPE alterValidator= comparatorType
                     {
                     match(input,K_ALTER,FOLLOW_K_ALTER_in_alterTableStatement2256); 
                      type = OperationType.ALTER; 
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:421:16: (col= ( IDENT | STRING_LITERAL | INTEGER ) )
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:421:17: col= ( IDENT | STRING_LITERAL | INTEGER )
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:421:16: (col= ( IDENT | STRING_LITERAL | INTEGER ) )
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:421:17: col= ( IDENT | STRING_LITERAL | INTEGER )
                     {
                     col=(Token)input.LT(1);
                     if ( input.LA(1)==IDENT||(input.LA(1)>=STRING_LITERAL && input.LA(1)<=INTEGER) ) {
@@ -2742,12 +2742,12 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:423:13: K_ADD (col= ( IDENT | STRING_LITERAL | INTEGER ) ) addValidator= comparatorType
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:423:13: K_ADD (col= ( IDENT | STRING_LITERAL | INTEGER ) ) addValidator= comparatorType
                     {
                     match(input,K_ADD,FOLLOW_K_ADD_in_alterTableStatement2330); 
                      type = OperationType.ADD; 
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:424:16: (col= ( IDENT | STRING_LITERAL | INTEGER ) )
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:424:17: col= ( IDENT | STRING_LITERAL | INTEGER )
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:424:16: (col= ( IDENT | STRING_LITERAL | INTEGER ) )
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:424:17: col= ( IDENT | STRING_LITERAL | INTEGER )
                     {
                     col=(Token)input.LT(1);
                     if ( input.LA(1)==IDENT||(input.LA(1)>=STRING_LITERAL && input.LA(1)<=INTEGER) ) {
@@ -2773,12 +2773,12 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:426:13: K_DROP (col= ( IDENT | STRING_LITERAL | INTEGER ) )
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:426:13: K_DROP (col= ( IDENT | STRING_LITERAL | INTEGER ) )
                     {
                     match(input,K_DROP,FOLLOW_K_DROP_in_alterTableStatement2402); 
                      type = OperationType.DROP; 
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:427:16: (col= ( IDENT | STRING_LITERAL | INTEGER ) )
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:427:17: col= ( IDENT | STRING_LITERAL | INTEGER )
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:427:16: (col= ( IDENT | STRING_LITERAL | INTEGER ) )
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:427:17: col= ( IDENT | STRING_LITERAL | INTEGER )
                     {
                     col=(Token)input.LT(1);
                     if ( input.LA(1)==IDENT||(input.LA(1)>=STRING_LITERAL && input.LA(1)<=INTEGER) ) {
@@ -2824,15 +2824,15 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "dropColumnFamilyStatement"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:433:1: dropColumnFamilyStatement returns [String cfam] : K_DROP K_COLUMNFAMILY name= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:433:1: dropColumnFamilyStatement returns [String cfam] : K_DROP K_COLUMNFAMILY name= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt ;
     public final String dropColumnFamilyStatement() throws RecognitionException {
         String cfam = null;
 
         Token name=null;
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:435:5: ( K_DROP K_COLUMNFAMILY name= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:435:7: K_DROP K_COLUMNFAMILY name= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:435:5: ( K_DROP K_COLUMNFAMILY name= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:435:7: K_DROP K_COLUMNFAMILY name= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt
             {
             match(input,K_DROP,FOLLOW_K_DROP_in_dropColumnFamilyStatement2476); 
             match(input,K_COLUMNFAMILY,FOLLOW_K_COLUMNFAMILY_in_dropColumnFamilyStatement2478); 
@@ -2870,14 +2870,14 @@ public class CqlParser extends Parser {
     };
 
     // $ANTLR start "comparatorType"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:438:1: comparatorType : ( 'bytea' | 'ascii' | 'text' | 'varchar' | 'int' | 'varint' | 'bigint' | 'uuid' | 'counter' | 'boolean' | 'date' | 'float' | 'double' );
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:438:1: comparatorType : ( 'bytea' | 'ascii' | 'text' | 'varchar' | 'int' | 'varint' | 'bigint' | 'uuid' | 'counter' | 'boolean' | 'date' | 'float' | 'double' );
     public final CqlParser.comparatorType_return comparatorType() throws RecognitionException {
         CqlParser.comparatorType_return retval = new CqlParser.comparatorType_return();
         retval.start = input.LT(1);
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:439:5: ( 'bytea' | 'ascii' | 'text' | 'varchar' | 'int' | 'varint' | 'bigint' | 'uuid' | 'counter' | 'boolean' | 'date' | 'float' | 'double' )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:439:5: ( 'bytea' | 'ascii' | 'text' | 'varchar' | 'int' | 'varint' | 'bigint' | 'uuid' | 'counter' | 'boolean' | 'date' | 'float' | 'double' )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:
             {
             if ( (input.LA(1)>=86 && input.LA(1)<=98) ) {
                 input.consume();
@@ -2906,17 +2906,17 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "term"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:442:1: term returns [Term item] : (t= K_KEY | t= STRING_LITERAL | t= INTEGER | t= UUID | t= IDENT | t= FLOAT ) ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:442:1: term returns [Term item] : (t= K_KEY | t= STRING_LITERAL | t= INTEGER | t= UUID | t= IDENT | t= FLOAT ) ;
     public final Term term() throws RecognitionException {
         Term item = null;
 
         Token t=null;
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:443:5: ( (t= K_KEY | t= STRING_LITERAL | t= INTEGER | t= UUID | t= IDENT | t= FLOAT ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:443:7: (t= K_KEY | t= STRING_LITERAL | t= INTEGER | t= UUID | t= IDENT | t= FLOAT )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:443:5: ( (t= K_KEY | t= STRING_LITERAL | t= INTEGER | t= UUID | t= IDENT | t= FLOAT ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:443:7: (t= K_KEY | t= STRING_LITERAL | t= INTEGER | t= UUID | t= IDENT | t= FLOAT )
             {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:443:7: (t= K_KEY | t= STRING_LITERAL | t= INTEGER | t= UUID | t= IDENT | t= FLOAT )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:443:7: (t= K_KEY | t= STRING_LITERAL | t= INTEGER | t= UUID | t= IDENT | t= FLOAT )
             int alt44=6;
             switch ( input.LA(1) ) {
             case K_KEY:
@@ -2958,42 +2958,42 @@ public class CqlParser extends Parser {
 
             switch (alt44) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:443:9: t= K_KEY
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:443:9: t= K_KEY
                     {
                     t=(Token)match(input,K_KEY,FOLLOW_K_KEY_in_term2588); 
 
                     }
                     break;
                 case 2 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:443:19: t= STRING_LITERAL
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:443:19: t= STRING_LITERAL
                     {
                     t=(Token)match(input,STRING_LITERAL,FOLLOW_STRING_LITERAL_in_term2594); 
 
                     }
                     break;
                 case 3 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:443:38: t= INTEGER
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:443:38: t= INTEGER
                     {
                     t=(Token)match(input,INTEGER,FOLLOW_INTEGER_in_term2600); 
 
                     }
                     break;
                 case 4 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:443:50: t= UUID
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:443:50: t= UUID
                     {
                     t=(Token)match(input,UUID,FOLLOW_UUID_in_term2606); 
 
                     }
                     break;
                 case 5 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:443:59: t= IDENT
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:443:59: t= IDENT
                     {
                     t=(Token)match(input,IDENT,FOLLOW_IDENT_in_term2612); 
 
                     }
                     break;
                 case 6 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:443:69: t= FLOAT
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:443:69: t= FLOAT
                     {
                     t=(Token)match(input,FLOAT,FOLLOW_FLOAT_in_term2618); 
 
@@ -3019,7 +3019,7 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "termList"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:446:1: termList returns [List<Term> items] : t1= term ( ',' tN= term )* ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:446:1: termList returns [List<Term> items] : t1= term ( ',' tN= term )* ;
     public final List<Term> termList() throws RecognitionException {
         List<Term> items = null;
 
@@ -3029,8 +3029,8 @@ public class CqlParser extends Parser {
 
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:447:5: (t1= term ( ',' tN= term )* )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:447:7: t1= term ( ',' tN= term )*
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:447:5: (t1= term ( ',' tN= term )* )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:447:7: t1= term ( ',' tN= term )*
             {
              items = new ArrayList<Term>(); 
             pushFollow(FOLLOW_term_in_termList2652);
@@ -3039,7 +3039,7 @@ public class CqlParser extends Parser {
             state._fsp--;
 
              items.add(t1); 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:448:35: ( ',' tN= term )*
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:448:35: ( ',' tN= term )*
             loop45:
             do {
                 int alt45=2;
@@ -3052,7 +3052,7 @@ public class CqlParser extends Parser {
 
                 switch (alt45) {
             	case 1 :
-            	    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:448:36: ',' tN= term
+            	    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:448:36: ',' tN= term
             	    {
             	    match(input,82,FOLLOW_82_in_termList2657); 
             	    pushFollow(FOLLOW_term_in_termList2661);
@@ -3086,7 +3086,7 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "termPair"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:452:1: termPair[Map<Term, Term> columns] : key= term '=' value= term ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:452:1: termPair[Map<Term, Term> columns] : key= term '=' value= term ;
     public final void termPair(Map<Term, Term> columns) throws RecognitionException {
         Term key = null;
 
@@ -3094,8 +3094,8 @@ public class CqlParser extends Parser {
 
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:453:5: (key= term '=' value= term )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:453:9: key= term '=' value= term
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:453:5: (key= term '=' value= term )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:453:9: key= term '=' value= term
             {
             pushFollow(FOLLOW_term_in_termPair2688);
             key=term();
@@ -3125,7 +3125,7 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "termPairWithOperation"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:456:1: termPairWithOperation[Map<Term, Operation> columns] : key= term '=' (value= term | c= term ( '+' v= term | '-' v= term ) ) ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:456:1: termPairWithOperation[Map<Term, Operation> columns] : key= term '=' (value= term | c= term ( '+' v= term | '-' v= term ) ) ;
     public final void termPairWithOperation(Map<Term, Operation> columns) throws RecognitionException {
         Term key = null;
 
@@ -3137,8 +3137,8 @@ public class CqlParser extends Parser {
 
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:457:5: (key= term '=' (value= term | c= term ( '+' v= term | '-' v= term ) ) )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:457:7: key= term '=' (value= term | c= term ( '+' v= term | '-' v= term ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:457:5: (key= term '=' (value= term | c= term ( '+' v= term | '-' v= term ) ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:457:7: key= term '=' (value= term | c= term ( '+' v= term | '-' v= term ) )
             {
             pushFollow(FOLLOW_term_in_termPairWithOperation2716);
             key=term();
@@ -3146,7 +3146,7 @@ public class CqlParser extends Parser {
             state._fsp--;
 
             match(input,85,FOLLOW_85_in_termPairWithOperation2718); 
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:457:20: (value= term | c= term ( '+' v= term | '-' v= term ) )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:457:20: (value= term | c= term ( '+' v= term | '-' v= term ) )
             int alt47=2;
             switch ( input.LA(1) ) {
             case K_KEY:
@@ -3266,7 +3266,7 @@ public class CqlParser extends Parser {
 
             switch (alt47) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:457:21: value= term
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:457:21: value= term
                     {
                     pushFollow(FOLLOW_term_in_termPairWithOperation2723);
                     value=term();
@@ -3278,14 +3278,14 @@ public class CqlParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:458:9: c= term ( '+' v= term | '-' v= term )
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:458:9: c= term ( '+' v= term | '-' v= term )
                     {
                     pushFollow(FOLLOW_term_in_termPairWithOperation2737);
                     c=term();
 
                     state._fsp--;
 
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:458:16: ( '+' v= term | '-' v= term )
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:458:16: ( '+' v= term | '-' v= term )
                     int alt46=2;
                     int LA46_0 = input.LA(1);
 
@@ -3303,7 +3303,7 @@ public class CqlParser extends Parser {
                     }
                     switch (alt46) {
                         case 1 :
-                            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:458:18: '+' v= term
+                            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:458:18: '+' v= term
                             {
                             match(input,99,FOLLOW_99_in_termPairWithOperation2741); 
                             pushFollow(FOLLOW_term_in_termPairWithOperation2745);
@@ -3316,7 +3316,7 @@ public class CqlParser extends Parser {
                             }
                             break;
                         case 2 :
-                            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:459:31: '-' v= term
+                            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:459:31: '-' v= term
                             {
                             match(input,100,FOLLOW_100_in_termPairWithOperation2779); 
                             pushFollow(FOLLOW_term_in_termPairWithOperation2783);
@@ -3353,7 +3353,7 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "relation"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:463:1: relation returns [Relation rel] : name= term type= ( '=' | '<' | '<=' | '>=' | '>' ) t= term ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:463:1: relation returns [Relation rel] : name= term type= ( '=' | '<' | '<=' | '>=' | '>' ) t= term ;
     public final Relation relation() throws RecognitionException {
         Relation rel = null;
 
@@ -3364,8 +3364,8 @@ public class CqlParser extends Parser {
 
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:464:5: (name= term type= ( '=' | '<' | '<=' | '>=' | '>' ) t= term )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:464:7: name= term type= ( '=' | '<' | '<=' | '>=' | '>' ) t= term
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:464:5: (name= term type= ( '=' | '<' | '<=' | '>=' | '>' ) t= term )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:464:7: name= term type= ( '=' | '<' | '<=' | '>=' | '>' ) t= term
             {
             pushFollow(FOLLOW_term_in_relation2812);
             name=term();
@@ -3404,15 +3404,15 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "truncateStatement"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:469:1: truncateStatement returns [String cfam] : K_TRUNCATE columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:469:1: truncateStatement returns [String cfam] : K_TRUNCATE columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt ;
     public final String truncateStatement() throws RecognitionException {
         String cfam = null;
 
         Token columnFamily=null;
 
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:470:5: ( K_TRUNCATE columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:470:7: K_TRUNCATE columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:470:5: ( K_TRUNCATE columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:470:7: K_TRUNCATE columnFamily= ( IDENT | STRING_LITERAL | INTEGER ) endStmnt
             {
             match(input,K_TRUNCATE,FOLLOW_K_TRUNCATE_in_truncateStatement2868); 
             columnFamily=(Token)input.LT(1);
@@ -3447,13 +3447,13 @@ public class CqlParser extends Parser {
 
 
     // $ANTLR start "endStmnt"
-    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:473:1: endStmnt : ( ';' )? EOF ;
+    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:473:1: endStmnt : ( ';' )? EOF ;
     public final void endStmnt() throws RecognitionException {
         try {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:474:5: ( ( ';' )? EOF )
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:474:7: ( ';' )? EOF
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:474:5: ( ( ';' )? EOF )
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:474:7: ( ';' )? EOF
             {
-            // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:474:7: ( ';' )?
+            // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:474:7: ( ';' )?
             int alt48=2;
             int LA48_0 = input.LA(1);
 
@@ -3462,7 +3462,7 @@ public class CqlParser extends Parser {
             }
             switch (alt48) {
                 case 1 :
-                    // /Users/devdatta.kulkarni/Documents/Cassandra/apache-cassandra-0.8.6-src/src/java/org/apache/cassandra/cql/Cql.g:474:7: ';'
+                    // /home/devdatta/Research/Cassandra/Cassandra-Provenance/src/java/org/apache/cassandra/cql/Cql.g:474:7: ';'
                     {
                     match(input,84,FOLLOW_84_in_endStmnt2905); 
 

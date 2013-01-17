@@ -90,10 +90,11 @@ public class Cassandra {
          * @param column_parent
          * @param predicate
          * @param consistency_level
+         * @param parameterizedVariable
          */
         public List<ColumnOrSuperColumn> get_slice(ByteBuffer key,
             ColumnParent column_parent, SlicePredicate predicate,
-            ConsistencyLevel consistency_level) throws InvalidRequestException,
+            ConsistencyLevel consistency_level, ByteBuffer parameterizedVariable) throws InvalidRequestException,
             UnavailableException, TimedOutException,
             org.apache.thrift.TException;
 
@@ -772,7 +773,7 @@ public class Cassandra {
 
         public List<ColumnOrSuperColumn> get_slice(ByteBuffer key,
             ColumnParent column_parent, SlicePredicate predicate,
-            ConsistencyLevel consistency_level) throws InvalidRequestException,
+            ConsistencyLevel consistency_level, ByteBuffer parameterizedVariable) throws InvalidRequestException,
             UnavailableException, TimedOutException,
             org.apache.thrift.TException {
             send_get_slice(key, column_parent, predicate, consistency_level);
@@ -4314,7 +4315,7 @@ public class Cassandra {
                 try {
                     result.success = iface_.get_slice(args.key,
                         args.column_parent, args.predicate,
-                        args.consistency_level);
+                        args.consistency_level, args.parameterizedVariable);
                 } catch (InvalidRequestException ire) {
                     result.ire = ire;
                 } catch (UnavailableException ue) {
@@ -8687,6 +8688,9 @@ public class Cassandra {
         private static final org.apache.thrift.protocol.TField CONSISTENCY_LEVEL_FIELD_DESC = new org.apache.thrift.protocol.TField(
             "consistency_level", org.apache.thrift.protocol.TType.I32,
             (short) 4);
+         private static final org.apache.thrift.protocol.TField PARAMVARIABLE_FIELD_DESC = new org.apache.thrift.protocol.TField(
+            "parameterizedVariable", org.apache.thrift.protocol.TType.STRING, (short) 1);
+
 
         public ByteBuffer key;
         public ColumnParent column_parent;
@@ -8696,6 +8700,7 @@ public class Cassandra {
          * @see ConsistencyLevel
          */
         public ConsistencyLevel consistency_level;
+        public ByteBuffer parameterizedVariable;
 
         /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
         public enum _Fields implements org.apache.thrift.TFieldIdEnum {
@@ -8705,7 +8710,8 @@ public class Cassandra {
              * 
              * @see ConsistencyLevel
              */
-            CONSISTENCY_LEVEL((short) 4, "consistency_level");
+            CONSISTENCY_LEVEL((short) 4, "consistency_level"),
+            PARAMVARIABLE((short) 5, "parameterizedVariable");
 
             private static final Map<String, _Fields> byName = new HashMap<String, _Fields>();
 
@@ -8728,6 +8734,8 @@ public class Cassandra {
                         return PREDICATE;
                     case 4: // CONSISTENCY_LEVEL
                         return CONSISTENCY_LEVEL;
+                    case 5: // PARAMVARIABLE
+                        return PARAMVARIABLE;
                     default:
                         return null;
                 }

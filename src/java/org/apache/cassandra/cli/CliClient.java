@@ -472,8 +472,10 @@ public class CliClient
 
         CfDef cfDef = getCfDef(columnFamily);
         boolean isSuperCF = cfDef.column_type.equals("Super");
+        
+        // Need to pass in the parameterized variable as the last argument for KVPM -- January 17, 2013
 
-        List<ColumnOrSuperColumn> columns = thriftClient.get_slice(key, parent, predicate, consistencyLevel);
+        List<ColumnOrSuperColumn> columns = thriftClient.get_slice(key, parent, predicate, consistencyLevel, null);
         AbstractType validator;
 
         // Print out super columns or columns.

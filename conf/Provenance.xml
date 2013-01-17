@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policies>
+    <policy>
+        <operation>
+            enable_dataprov_write
+        </operation>
+        <on>
+			/PatientInfoSystem/Patient(id=JodhaAkbar)/medication
+        </on>
+    </policy>
+        <policy>
+        <operation>
+            enable_dataprov_read
+        </operation>
+        <on>
+			/PatientInfoSystem/Patient(id=Jodha)/medication
+        </on>
+    </policy>
+</policies>

@@ -101,6 +101,8 @@ public class DatabaseDescriptor {
                                                                   // else to
                                                                   // zero.
     private static volatile UUID defsVersion = INITIAL_VERSION;
+    
+    private static String provenanceFilePath;
 
     /**
      * Inspect the classpath to find storage configuration file
@@ -145,6 +147,8 @@ public class DatabaseDescriptor {
             constructor.addTypeDescription(seedDesc);
             Yaml yaml = new Yaml(new Loader(constructor));
             conf = (Config) yaml.load(input);
+            
+            
 
             if (conf.commitlog_sync == null) {
                 throw new ConfigurationException(
@@ -451,6 +455,21 @@ public class DatabaseDescriptor {
                     + "\nInvalid yaml; unable to start server.  See log for stacktrace.");
             System.exit(1);
         }
+    }
+    
+    public static String getProvenancePolicyFilePath() {
+    	String provPolicyFP = System.getProperty("provenance.properties");
+    	return provPolicyFP;
+    }
+    
+    public static boolean getProvenanceCollectionFlag() {
+    	String collectProvenance = System.getProperty("provenance.collection");
+    	if (collectProvenance.equalsIgnoreCase("true")) {
+    		return true;
+    	}
+    	else {
+    		return false;
+    	}
     }
 
     private static IEndpointSnitch createEndpointSnitch(
